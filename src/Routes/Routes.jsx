@@ -1,0 +1,71 @@
+import { createBrowserRouter } from "react-router";
+import Root from "../Layouts/Root";
+import HomePage from "../Pages/HomePage";
+import LoginPage from "../Pages/LoginPage";
+import RegisterPage from "../Pages/RegisterPage";
+import ForgetPasswordPage from "../Pages/ForgetPasswordPage";
+import PrivateRoutes from "../Context/PrivateRoutes";
+import ToyDetails from "../Pages/ToyDetails";
+import MyProfile from "../Pages/MyProfile";
+import ErrorPage from "../Pages/ErrorPage";
+import ShippingDeliveyPage from "../Pages/ShippingDeliveyPage";
+import TermsConditionPage from "../Pages/TermsConditionPage";
+import PrivacyPolicyPage from "../Pages/PrivacyPolicyPage";
+
+export const router = createBrowserRouter([
+  {
+    path: "/",
+    Component: Root,
+    errorElement: <ErrorPage></ErrorPage>,
+    children: [
+      {
+        index: true,
+        Component: HomePage,
+      },
+      {
+        path: "log-in",
+        element: <LoginPage></LoginPage>,
+      },
+      {
+        path: "register",
+        element: <RegisterPage></RegisterPage>,
+      },
+      {
+        path: "forget-password",
+        Component: ForgetPasswordPage,
+      },
+      {
+        path: "toy-details/:id",
+        element: (
+          <PrivateRoutes>
+            <ToyDetails></ToyDetails>
+          </PrivateRoutes>
+        ),
+      },
+      {
+        path: "my-profile",
+        element: (
+          <PrivateRoutes>
+            <MyProfile></MyProfile>
+          </PrivateRoutes>
+        ),
+      },
+      {
+        path: "shipping-delivery",
+        element: (
+          <PrivateRoutes>
+            <ShippingDeliveyPage></ShippingDeliveyPage>
+          </PrivateRoutes>
+        ),
+      },
+      {
+        path: "terms-conditions",
+        Component: TermsConditionPage,
+      },
+      {
+        path: "privacy-policy",
+        Component: PrivacyPolicyPage,
+      },
+    ],
+  },
+]);

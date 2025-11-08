@@ -1,0 +1,74 @@
+[
+  {
+    "toyId": 1,
+    "toyName": "Lego Classic Bricks",
+    "sellerName": "Toys R Us Local",
+    "sellerEmail": "contact@toysruslocal.com",
+    "price": 49.99,
+    "rating": 4.7,
+    "availableQuantity": 75,
+    "description": "A timeless set of colorful Lego bricks that encourages creativity and problem-solving. Kids can build anything they imagine, from houses to vehicles.",
+    "pictureURL": "https://i.ibb.co.com/PZgzp21F/ryan-wallace-5jtw-RBB3-Cd-I-unsplash-1.jpg",
+    "subCategory": "Building Blocks"
+  },
+  {
+    "toyId": 2,
+    "toyName": "Barbie Dreamhouse",
+    "sellerName": "Doll World",
+    "sellerEmail": "info@dollworld.com",
+    "price": 129.99,
+    "rating": 4.8,
+    "availableQuantity": 40,
+    "description": "A luxurious Barbie Dreamhouse with lights, sounds, and furniture to create endless storytelling fun.",
+    "pictureURL": "https://i.ibb.co.com/dwvhGNrn/steinar-engeland-drw6-Rt-OKDi-A-unsplash-1.jpg",
+    "subCategory": "Dolls"
+  },
+  {
+    "toyId": 3,
+    "toyName": "Hot Mega Track ",
+    "sellerName": "Speedy Toys",
+    "sellerEmail": "sales@speedytoys.com",
+    "price": 59.99,
+    "rating": 4.6,
+    "availableQuantity": 60,
+    "description": "A high-speed Hot Wheels racing track with loops, ramps, and stunts for thrilling car action.",
+    "pictureURL": "https://i.ibb.co.com/zhcRh2cZ/taylor-heery-1r8-ZIY1-N5-Cs-unsplash-1.jpg",
+    "subCategory": "Vehicles"
+  },
+  {
+    "toyId": 4,
+    "toyName": "Teddy Bear Plush",
+    "sellerName": "Cuddle Corner",
+    "sellerEmail": "hello@cuddlecorner.com",
+    "price": 24.99,
+    "rating": 4.9,
+    "availableQuantity": 120,
+    "description": "A super-soft teddy bear plush toy perfect for cuddles, comfort, and bedtime stories.",
+    "pictureURL": "https://i.ibb.co.com/Sw3jP6gJ/jerry-wang-q-Br-F1yu5-Wys-unsplash-1.jpg",
+    "subCategory": "Stuffed Animals"
+  },
+  {
+    "toyId": 5,
+    "toyName": "Remote Control Drone",
+    "sellerName": "TechToys Hub",
+    "sellerEmail": "support@techtoyshub.com",
+    "price": 89.99,
+    "rating": 4.5,
+    "availableQuantity": 35,
+    "description": "A compact drone with easy controls and HD camera for kids to explore aerial adventures safely.",
+    "pictureURL": "https://i.ibb.co.com/Y7tKkZVq/vertical-selective-focus-shot-red-wagon-blue-car-placed-each-other-wooden-table-1.jpg",
+    "subCategory": "Remote Control Toys"
+  },
+  {
+    "toyId": 6,
+    "toyName": "Magnetic Buildings",
+    "sellerName": "Creative Minds",
+    "sellerEmail": "info@creativeminds.com",
+    "price": 39.99,
+    "rating": 4.8,
+    "availableQuantity": 90,
+    "description": "A colorful magnetic tile set that lets kids build towers, animals, and creative 3D structures.",
+    "pictureURL": "https://i.ibb.co.com/vMx2qSk/green-easter-car-with-yellow-egg-1.jpg",
+    "subCategory": "Educational Toys"
+  }
+]
