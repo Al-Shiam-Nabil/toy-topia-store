@@ -4,7 +4,7 @@
 
 **Purpose :** Online marketplace for kids' toys, encouraging families to discover and support local toy sellers.. Users can log in, browse toys, view detailed info, and leave feedback or ratings for toys they want to buy for their kids.
 
-**Live URL :** toytopia-store-bd.netlify.app
+**Live URL :** [toytopia-store-bd.netlify.app](https://toytopia-store-bd.netlify.app/)
 
 **Key Features :**
 
