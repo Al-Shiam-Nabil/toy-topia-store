@@ -1,4 +1,3 @@
-# Assignment-9
 
 **Project Name :** ToyTopia Store
 
