@@ -31,8 +31,12 @@ const Navbar = () => {
   const links = (
     <>
       <ActiveLink to="/">Home</ActiveLink>
-      <ActiveLink to="/my-profile">My Profile</ActiveLink>
-      <ActiveLink to="/shipping-delivery">Shipping & Delivery</ActiveLink>
+      <ActiveLink to="/all-toys">All Toys</ActiveLink>
+      <ActiveLink to="/about-us">About Us</ActiveLink>
+      <ActiveLink to="/contact-us">Contact Us</ActiveLink>
+      <ActiveLink to="help-support">Help & Support</ActiveLink>
+      {/* <ActiveLink to="/my-profile">My Profile</ActiveLink>
+      <ActiveLink to="/shipping-delivery">Shipping & Delivery</ActiveLink> */}
     </>
   );
 
@@ -70,20 +74,19 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className=" flex gap-5 px-1">{links}</ul>
+          <ul className=" flex gap-6 px-1">{links}</ul>
         </div>
 
         {loading ? (
    <div className="navbar-end">
            <div className="flex  flex-col gap-4 ">
   <div className="flex items-center gap-4">
-    <div className="skeleton h-10 w-10 shrink-0 rounded-full"></div>
     <div className="flex flex-col gap-4">
-      <div className="skeleton h-10 w-20"></div>
-      {/* <div className="skeleton h-4 w-28"></div> */}
+      <div className="skeleton h-10 w-18 rounded-3xl"></div>
+    
     </div>
   </div>
-  {/* <div className="skeleton h-32 w-full"></div> */}
+
 </div>
    </div>
         ) : (
@@ -115,7 +118,7 @@ const Navbar = () => {
                 </button>
               </div>
             ) : (
-              <Link to="/log-in" className="btn btn-sm sm:btn-md btn-secondary">
+              <Link to="/log-in" className="btn btn-sm sm:btn-md  border-none btn-secondary text-primary shadow-none rounded-3xl">
                 Log In
               </Link>
             )}
