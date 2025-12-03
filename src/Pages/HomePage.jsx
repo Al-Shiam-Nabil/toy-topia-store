@@ -14,6 +14,7 @@ import TrustedBrands from "../Components/Home/TrustedBrands";
 import BodyBanner from "../Components/Home/BodyBanner";
 import Details from "../Components/Home/Details";
 import Testimonials from "../Components/Home/Testimonials";
+import CircleBanner from "../Components/Home/CircleBanner";
 
 const HomePage = () => {
   const { data, loading } = useLoadData();
@@ -85,6 +86,11 @@ const HomePage = () => {
         {/* body banner */}
         <Container>
           <BodyBanner></BodyBanner>
+        </Container>
+
+        {/* circle banner */}
+        <Container>
+          <CircleBanner></CircleBanner>
         </Container>
 
         {/* testimonials */}
