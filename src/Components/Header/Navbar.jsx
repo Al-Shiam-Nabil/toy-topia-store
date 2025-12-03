@@ -41,7 +41,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className=" bg-primary shadow-xs ">
+    <div className=" bg-primary shadow-xs">
       <Container className="navbar">
         <div className="navbar-start">
           <div className="dropdown">

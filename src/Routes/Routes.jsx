@@ -11,17 +11,29 @@ import ErrorPage from "../Pages/ErrorPage";
 import ShippingDeliveyPage from "../Pages/ShippingDeliveyPage";
 import TermsConditionPage from "../Pages/TermsConditionPage";
 import PrivacyPolicyPage from "../Pages/PrivacyPolicyPage";
+import HomePageLayout from "../Layouts/HomePageLayout";
+import LoadingPage from "../Components/Loading/LoadingPage";
 
 export const router = createBrowserRouter([
+    {
+        hydrateFallbackElement:<LoadingPage></LoadingPage>,
+    errorElement: <ErrorPage></ErrorPage>,
+  },
   {
     path: "/",
-    Component: Root,
-    errorElement: <ErrorPage></ErrorPage>,
+    Component: HomePageLayout,
+  // errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         index: true,
         Component: HomePage,
       },
+    ],
+  },
+  {
+    path: "/",
+    Component: Root,
+    children: [
       {
         path: "log-in",
         element: <LoginPage></LoginPage>,
@@ -67,5 +79,7 @@ export const router = createBrowserRouter([
         Component: PrivacyPolicyPage,
       },
     ],
+    
   },
+
 ]);
