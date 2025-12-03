@@ -37,7 +37,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className=" bg-base-100 shadow-xs ">
+    <div className=" bg-primary shadow-xs ">
       <Container className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
@@ -47,7 +47,7 @@ const Navbar = () => {
                 className="h-6 w-6 sm:h-7 sm:w-7 mr-2 sm:mr-3"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                stroke="white"
               >
                 {" "}
                 <path
@@ -65,8 +65,8 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <Link to="/" className="text-xl sm:text-2xl font-semibold">
-            Toy<span className="text-primary">Topia</span>{" "}
+          <Link to="/" className="text-xl text-white sm:text-2xl font-bold">
+            Toy<span className="text-secondary">Topia</span>{" "}
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">

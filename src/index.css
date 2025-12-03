@@ -8,8 +8,8 @@
 @plugin "daisyui/theme" {
   name: "light";
   default: true;
-  --color-primary: orange;
-  --color-secondary: #001931;
+  --color-primary: #3b82f6;
+  --color-secondary: #facc15;
   --color-accent: #403f3f;
 }
 
@@ -18,7 +18,7 @@
 }
 
 body {
-  max-width: 1400px;
+  /* max-width: 1400px; */
   margin-inline: auto;
   color: #403f3f;
 }
