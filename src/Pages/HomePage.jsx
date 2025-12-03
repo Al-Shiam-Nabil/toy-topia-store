@@ -12,6 +12,8 @@ import { useLocation } from "react-router";
 import OurCommitment from "../Components/Home/OurCommitment";
 import TrustedBrands from "../Components/Home/TrustedBrands";
 import BodyBanner from "../Components/Home/BodyBanner";
+import Details from "../Components/Home/Details";
+import Testimonials from "../Components/Home/Testimonials";
 
 const HomePage = () => {
   const { data, loading } = useLoadData();
@@ -57,7 +59,7 @@ const HomePage = () => {
         {/* populer toys */}
         <section className="bg-gray-50 py-12">
           <Container>
-            <h3 className="text-center text-2xl lg:text-4xl font-semibold pb-8 text-accent">
+            <h3 className="text-3xl font-bold text-center mb-10 ">
               Popular Toys
             </h3>
 
@@ -77,13 +79,21 @@ const HomePage = () => {
           </Container>
         </section>
 
+        {/* details */}
+        <Details></Details>
+
         {/* body banner */}
         <Container>
           <BodyBanner></BodyBanner>
         </Container>
 
+        {/* testimonials */}
+        <Container>
+          <Testimonials></Testimonials>
+        </Container>
+
         {/* trusted brand */}
-        <Container className="py-20 ">
+        <Container className="pb-20">
         <TrustedBrands></TrustedBrands>
         </Container>
       </div>

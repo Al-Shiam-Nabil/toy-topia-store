@@ -22,7 +22,7 @@ import { Autoplay } from "swiper/modules";
 const TrustedBrands = () => {
   return (
     <section>
-      <h3 className="text-center text-2xl lg:text-4xl font-semibold pb-8 text-accent md:mb-8">
+      <h3 className="text-3xl font-bold text-center mb-10 ">
         Our Trusted Brands
       </h3>
 
