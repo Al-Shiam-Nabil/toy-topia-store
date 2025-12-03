@@ -6,7 +6,7 @@ import { TbTruckDelivery } from "react-icons/tb";
 const OurCommitment = () => {
   return (
     <div className="my-20 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5">
-      <div className="flex items-center justify-center gap-5 border border-primary rounded-xl p-3 ">
+      <div className="flex items-center sm:justify-center gap-5 border border-primary rounded-xl p-3 ">
         <IoIosPricetags className="text-4xl text-primary shrink-0"></IoIosPricetags>
         <div>
           <h3 className="text-xl font-bold text-primary">Best Prices</h3>
@@ -14,7 +14,7 @@ const OurCommitment = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center gap-5 border border-primary rounded-xl p-3 ">
+      <div className="flex items-center sm:justify-center gap-5 border border-primary rounded-xl p-3 ">
         <TbTruckDelivery className="text-4xl text-primary shrink-0"></TbTruckDelivery>
         <div>
           <h3 className="text-xl font-bold text-primary">Fastest Delivey</h3>
@@ -22,7 +22,7 @@ const OurCommitment = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center gap-5 border border-primary rounded-xl p-3 ">
+      <div className="flex items-center sm:justify-center gap-5 border border-primary rounded-xl p-3 ">
         <MdVerified className="text-4xl text-primary shrink-0"></MdVerified>
         <div>
           <h3 className="text-xl font-bold text-primary whitespace-nowrap">
@@ -32,7 +32,7 @@ const OurCommitment = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center gap-5 border border-primary rounded-xl p-3 ">
+      <div className="flex items-center sm:justify-center gap-5 border border-primary rounded-xl p-3 ">
         <MdSupportAgent className="text-4xl text-primary shrink-0"></MdSupportAgent>
         <div>
           <h3 className="text-xl font-bold text-primary">Online Support</h3>

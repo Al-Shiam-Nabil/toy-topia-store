@@ -7,21 +7,11 @@ import useLoadData from "../Hooks/useLoadData";
 import PopularCard from "../Components/Home/PopularCard";
 import LoadingComponent from "../Components/Loading/LoadingComponent";
 
-import brand1 from "../assets/partners-1_1.avif";
-import brand2 from "../assets/partners-2_1.avif";
-import brand3 from "../assets/partners-3_1.avif";
-import brand4 from "../assets/partners-4_1.avif";
-import brand5 from "../assets/partners-5_1.avif";
-import brand6 from "../assets/partners-6_1.avif";
-import brand7 from "../assets/partners-7_1.avif";
-import brand8 from "../assets/partners-8_1.avif";
-import brand9 from "../assets/partners-9_1.avif";
-import brand10 from "../assets/partners-10_1.avif";
-import brand11 from "../assets/partners-11_1.avif";
-import brand12 from "../assets/partners-12_1.avif";
 import LoadingPage from "../Components/Loading/LoadingPage";
 import { useLocation } from "react-router";
 import OurCommitment from "../Components/Home/OurCommitment";
+import TrustedBrands from "../Components/Home/TrustedBrands";
+import BodyBanner from "../Components/Home/BodyBanner";
 
 const HomePage = () => {
   const { data, loading } = useLoadData();
@@ -49,7 +39,7 @@ const HomePage = () => {
           </section>
         </Container>
 
-           {/* our commitment */}
+        {/* our commitment */}
         <Container>
           <OurCommitment></OurCommitment>
         </Container>
@@ -63,8 +53,6 @@ const HomePage = () => {
           </h2>
           <h3 className=" text-4xl font-bold text-accent">Explore Now !</h3>
         </Container>
-
-     
 
         {/* populer toys */}
         <section className="bg-gray-50 py-12">
@@ -89,28 +77,14 @@ const HomePage = () => {
           </Container>
         </section>
 
+        {/* body banner */}
+        <Container>
+          <BodyBanner></BodyBanner>
+        </Container>
+
         {/* trusted brand */}
         <Container className="py-20 ">
-          <section>
-            <h3 className="text-center text-2xl lg:text-4xl font-semibold pb-8 text-accent md:mb-8">
-              Our Trusted Brands
-            </h3>
-
-            <div className="grid grid-cols-4 sm:grid-cols-6 gap-y-10 gap-x-5">
-              <img src={brand1} alt="brand logo" />
-              <img src={brand2} alt="brand logo" />
-              <img src={brand3} alt="brand logo" />
-              <img src={brand4} alt="brand logo" />
-              <img src={brand5} alt="brand logo" />
-              <img src={brand6} alt="brand logo" />
-              <img src={brand7} alt="brand logo" />
-              <img src={brand8} alt="brand logo" />
-              <img src={brand9} alt="brand logo" />
-              <img src={brand10} alt="brand logo" />
-              <img src={brand11} alt="brand logo" />
-              <img src={brand12} alt="brand logo" />
-            </div>
-          </section>
+        <TrustedBrands></TrustedBrands>
         </Container>
       </div>
     </>

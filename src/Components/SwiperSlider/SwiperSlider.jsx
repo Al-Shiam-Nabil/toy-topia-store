@@ -33,21 +33,21 @@ const SwiperSlider = () => {
         <img
           src={slider1}
           alt="toy banner image"
-          className="w-full h-[500px] object-cover rounded-xl"
+          className="w-full h-[300px] lg:h-[500px] object-cover rounded-xl"
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
           src={slider2}
           alt="toy banner image"
-          className="w-full h-[500px] object-cover rounded-xl"
+          className="w-full h-[300px] lg:h-[500px] object-cover rounded-xl"
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
           src={slider3}
           alt="toy banner image"
-          className="w-full h-[500px] object-cover rounded-xl"
+          className="w-full h-[300px] lg:h-[500px] object-cover rounded-xl"
         />
       </SwiperSlide>
     </Swiper>
