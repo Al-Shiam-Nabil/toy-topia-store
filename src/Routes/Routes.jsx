@@ -49,9 +49,9 @@ export const router = createBrowserRouter([
       {
         path: "toy-details/:id",
         element: (
-          <PrivateRoutes>
+         
             <ToyDetails></ToyDetails>
-          </PrivateRoutes>
+          
         ),
       },
       {

@@ -21,6 +21,7 @@ import brand11 from "../assets/partners-11_1.avif";
 import brand12 from "../assets/partners-12_1.avif";
 import LoadingPage from "../Components/Loading/LoadingPage";
 import { useLocation } from "react-router";
+import OurCommitment from "../Components/Home/OurCommitment";
 
 const HomePage = () => {
   const { data, loading } = useLoadData();
@@ -48,6 +49,11 @@ const HomePage = () => {
           </section>
         </Container>
 
+           {/* our commitment */}
+        <Container>
+          <OurCommitment></OurCommitment>
+        </Container>
+
         {/* extra offer  */}
         <Container className="text-center space-y-6 my-20">
           <h2 className="text-5xl/15 md:text-6xl font-bold text-accent ">
@@ -57,6 +63,8 @@ const HomePage = () => {
           </h2>
           <h3 className=" text-4xl font-bold text-accent">Explore Now !</h3>
         </Container>
+
+     
 
         {/* populer toys */}
         <section className="bg-gray-50 py-12">
