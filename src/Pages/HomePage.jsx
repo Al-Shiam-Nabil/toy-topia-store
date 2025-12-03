@@ -15,6 +15,7 @@ import BodyBanner from "../Components/Home/BodyBanner";
 import Details from "../Components/Home/Details";
 import Testimonials from "../Components/Home/Testimonials";
 import CircleBanner from "../Components/Home/CircleBanner";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 const HomePage = () => {
   const { data, loading } = useLoadData();
@@ -67,7 +68,8 @@ const HomePage = () => {
             {loading ? (
               <LoadingComponent></LoadingComponent>
             ) : (
-              <section className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5">
+             <>
+              <section className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-5">
                 {data.map((toy) => (
                   <PopularCard
                     key={toy.toyId}
@@ -76,6 +78,10 @@ const HomePage = () => {
                   ></PopularCard>
                 ))}
               </section>
+             <div className="grid place-items-center">
+               <button className="btn bg-gray-100 border-none shadow-none hover:bg-gray-200 rounded-full my-10 text-center flex items-center text-primary">Show More <FaLongArrowAltRight></FaLongArrowAltRight></button>
+             </div>
+             </>
             )}
           </Container>
         </section>
