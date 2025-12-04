@@ -20,6 +20,9 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 const HomePage = () => {
   const { data, loading } = useLoadData();
 
+  
+  console.log(data.slice(0,2))
+
   const location = useLocation();
 
   useEffect(() => {
@@ -49,13 +52,13 @@ const HomePage = () => {
         </Container>
 
         {/* extra offer  */}
-        <Container className="text-center space-y-6 my-20">
-          <h2 className="text-5xl/15 md:text-6xl font-bold text-accent ">
+        <Container className="text-center space-y-4 my-20 ">
+          <h2 className="text-3xl/12 sm:text-5xl/15 md:text-6xl font-bold text-accent ">
             Get Up to{" "}
             <span className="text-primary animate-pulse inline-block">65%</span>{" "}
             Offer
           </h2>
-          <h3 className=" text-4xl font-bold text-accent">Explore Now !</h3>
+          <h3 className="text-3xl sm:text-4xl font-bold text-accent">Explore Now !</h3>
         </Container>
 
         {/* populer toys */}
@@ -70,9 +73,9 @@ const HomePage = () => {
             ) : (
              <>
               <section className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-5">
-                {data.map((toy) => (
+                {data.slice(0,9).map((toy) => (
                   <PopularCard
-                    key={toy.toyId}
+                    key={toy.id}
                     toy={toy}
                     loading={loading}
                   ></PopularCard>

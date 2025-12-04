@@ -7,12 +7,12 @@ import { Link } from "react-router";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#001931] pt-[80px] text-white">
+    <footer className="bg-[#001931] pt-20 text-white">
       <Container>
         <div className=" text-sm grid grid-cols-1 md:grid-cols-4 lg:grid-cols-11 gap-8 md:gap-2 pb-[50px] border-b border-gray-800">
           <div className="col-span-full lg:col-span-3 space-y-3 text-left mb-0 md:mb-7 lg:mb-0 lg:pr-[60px]">
             <h3 className="text-white text-xl font-bold">
-              Toy<span className="text-primary">Topia</span>
+              Toy<span className="text-secondary">Topia</span>
             </h3>
             <p>
               Welcome to <strong>ToyTopia</strong> — where fun never ends! We

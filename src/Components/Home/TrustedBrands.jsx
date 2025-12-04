@@ -27,12 +27,21 @@ const TrustedBrands = () => {
       </h3>
 
       <Swiper
-        slidesPerView={6}
+        slidesPerView={3}
         spaceBetween={30}
         loop={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
+        }}
+         breakpoints={{
+          640: {
+            slidesPerView: 5,
+          },
+
+          1024: {
+            slidesPerView: 6,
+          },
         }}
         modules={[Autoplay]}
         className="mySwiper"

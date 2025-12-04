@@ -13,6 +13,7 @@ import TermsConditionPage from "../Pages/TermsConditionPage";
 import PrivacyPolicyPage from "../Pages/PrivacyPolicyPage";
 import HomePageLayout from "../Layouts/HomePageLayout";
 import LoadingPage from "../Components/Loading/LoadingPage";
+import AllToysPage from "../Pages/AllToysPage";
 
 export const router = createBrowserRouter([
     {
@@ -53,6 +54,10 @@ export const router = createBrowserRouter([
             <ToyDetails></ToyDetails>
           
         ),
+      },
+      {
+path:'all-toys',
+Component:AllToysPage
       },
       {
         path: "my-profile",
