@@ -4,9 +4,10 @@ import { AuthContext } from "../Context/AuthContext";
 import { FaRegEdit, FaUserEdit } from "react-icons/fa";
 import { toast } from "react-toastify";
 import { useLocation } from "react-router";
+import LoadingComponent from "../Components/Loading/LoadingComponent";
 
 const MyProfile = () => {
-  const { user, setUser, updateUserProfile, setLoading } =
+  const { user, setUser, updateUserProfile, setLoading ,loading} =
     useContext(AuthContext);
 
   const location = useLocation();
@@ -51,6 +52,10 @@ const MyProfile = () => {
         setLoading(false);
       });
   };
+
+  if(loading){
+    return <LoadingComponent></LoadingComponent>
+  }
 
   return (
     <>
