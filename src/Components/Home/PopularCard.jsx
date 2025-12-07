@@ -10,7 +10,7 @@ const PopularCard = ({ toy }) => {
     <motion.button whileHover={{ scale: 1.03, transition: { duration: 0.4 } }} whileTap={{ scale: 0.95 , transition: { duration: 0.4 }}}>
       <div className=" rounded-xl  bg-white shadow cursor-pointer">
         <img
-          src={toy?.gallery?.url}
+          src={toy?.image}
           alt={toy?.name}
           className="w-full h-[150px] object-cover bg-gray-300 rounded-t-xl"
         />
@@ -21,13 +21,13 @@ const PopularCard = ({ toy }) => {
           </h3>
           <div>
             <div className="text-sm sm:text-base">
-              <h3>Price : $ {toy?.pricing?.price}</h3>
+              <h3>Price : $ {toy?.discountPrice}</h3>
             </div>
           </div>
 
           <div className="flex items-center gap-1">
             {[...Array(5)].map((_, index) => {
-              if (index < Math.floor(toy?.ratings?.averageRating)) {
+              if (index < Math.floor(toy?.averageRating)) {
                 return <FaStar key={index} className="text-warning"></FaStar>;
               }
               return <FaStar key={index} className="text-gray-400"></FaStar>;

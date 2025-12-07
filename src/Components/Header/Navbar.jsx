@@ -78,22 +78,20 @@ const Navbar = () => {
         </div>
 
         {loading ? (
-   <div className="navbar-end">
-           <div className="flex  flex-col gap-4 ">
-  <div className="flex items-center gap-4">
-    <div className="flex flex-col gap-4">
-      <div className="skeleton h-10 w-18 rounded-3xl"></div>
-    
-    </div>
-  </div>
-
-</div>
-   </div>
+          <div className="navbar-end">
+            <div className="flex  flex-col gap-4 ">
+              <div className="flex items-center gap-4">
+                <div className="flex flex-col gap-4">
+                  <div className="skeleton h-8 w-15 sm:h-10 sm:w-18 rounded-3xl"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         ) : (
           <div className="navbar-end">
             {user ? (
               <div className="flex justify-center items-center gap-3">
-                <div className="dropdown dropdown-hover">
+                <div className="dropdown dropdown-end">
                   <div tabIndex={0} className=" m-1">
                     {" "}
                     <img
@@ -104,21 +102,34 @@ const Navbar = () => {
                   </div>
                   <ul
                     tabIndex="-1"
-                    className="dropdown-content menu bg-gray-600 text-white rounded-box z-1 w-36 p-2 shadow-sm"
+                    className="dropdown-content menu bg-white/50 backdrop-blur-lg rounded-box z-1 min-w-52 p-4 shadow-sm"
                   >
-                    <p className="text-xs">{user?.displayName}</p>
+                    <li className="whitespace-nowrap mb-2">
+                      {user?.displayName}
+                    </li>
+
+                    <li className="bg-transparent">
+                      <NavLink
+                        to="/my-profile"
+                        className="px-3 py-1 rounded-3xl hover:bg-primary hover:text-white"
+                      >
+                        My Profile
+                      </NavLink>
+                    </li>
+                    <li
+                      onClick={handleLogOut}
+                      className=" px-3 py-1 hover:bg-primary hover:text-white rounded-3xl cursor-pointer "
+                    >
+                      Log Out
+                    </li>
                   </ul>
                 </div>
-
-                <button
-                  onClick={handleLogOut}
-                  className="btn btn-sm sm:btn-md btn-secondary"
-                >
-                  Log Out
-                </button>
               </div>
             ) : (
-              <Link to="/log-in" className="btn btn-sm sm:btn-md  border-none btn-secondary text-primary shadow-none rounded-3xl">
+              <Link
+                to="/log-in"
+                className="btn btn-sm sm:btn-md  border-none btn-secondary text-primary shadow-none rounded-3xl"
+              >
                 Log In
               </Link>
             )}

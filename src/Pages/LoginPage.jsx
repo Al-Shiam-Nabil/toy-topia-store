@@ -122,7 +122,7 @@ const LoginPage = () => {
                     Forgot password?
                   </a>
                 </div>
-                <button className="btn btn-secondary text-base  mt-4">
+                <button className="btn btn-primary shadow-none rounded-3xl text-base  mt-4">
                   Log in
                 </button>
               </fieldset>
@@ -133,7 +133,7 @@ const LoginPage = () => {
             {/* Google */}
             <button
               onClick={handleGoogleLogin}
-              className="btn bg-white text-black border-[#e5e5e5]"
+              className="btn bg-white text-black rounded-3xl hover:bg-gray-100 border-[#e5e5e5]"
             >
               <svg
                 aria-label="Google logo"

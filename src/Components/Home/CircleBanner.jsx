@@ -7,7 +7,7 @@ const CircleBanner = () => {
         <img
           src="https://i.ibb.co/cKVS2Bs3/toys-4940737-1280.jpg"
           alt="baby immage"
-          className="rounded-full w-[400px] h-[400px] object-cover"
+          className="rounded-full sm:w-[400px] sm:h-[400px] object-cover"
         />
       </div>
 

@@ -67,7 +67,7 @@ const MyProfile = () => {
 
           <div className="space-y-8  w-full">
             <div className="space-y-3 w-full">
-              <h3 className="font-semibold text-2xl text-secondary">
+              <h3 className="font-semibold text-2xl text-accent">
                 {user?.displayName}
               </h3>
               <p>
@@ -99,7 +99,7 @@ const MyProfile = () => {
                   placeholder="Enter PhotoURL..."
                 />
 
-                <button className="btn btn-secondary text-white border-none outline-none mt-4">
+                <button className="btn btn-primary rounded-3xl shadow-none text-white border-none outline-none mt-4">
                   Update
                 </button>
               </form>

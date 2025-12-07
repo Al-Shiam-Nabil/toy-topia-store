@@ -25,7 +25,7 @@ const ErrorPage = () => {
             onClick={() => {
               navigate(-1);
             }}
-            className="btn btn-secondary hover:btn-primary outline-none border-none"
+            className="btn btn-primary shadow-none rounded-3xl hover:btn-primary outline-none border-none"
           >
             Go Back
           </button>

@@ -20,16 +20,19 @@ const ToyDetails = () => {
   if (loading) {
     return <LoadingComponent></LoadingComponent>;
   }
-  const findDetails = data.find((e) => e.toyId == id);
+  const findDetails = data.find((e) => e.id == id);
+
 
   return (
     <>
       <title>ToyTopia - Toy Details</title>
-      <Container className="bg-gray-50 py-20">
+     <div className="bg-gray-50">
+       <Container className=" py-20">
         <ToyDetailsCard findDetails={findDetails}></ToyDetailsCard>
 
-        <ToyDetailsForm></ToyDetailsForm>
+        {/* <ToyDetailsForm></ToyDetailsForm> */}
       </Container>
+     </div>
     </>
   );
 };

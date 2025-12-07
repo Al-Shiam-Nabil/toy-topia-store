@@ -8,7 +8,7 @@ import PopularCard from "../Components/Home/PopularCard";
 import LoadingComponent from "../Components/Loading/LoadingComponent";
 
 import LoadingPage from "../Components/Loading/LoadingPage";
-import { useLocation } from "react-router";
+import { Link, useLocation } from "react-router";
 import OurCommitment from "../Components/Home/OurCommitment";
 import TrustedBrands from "../Components/Home/TrustedBrands";
 import BodyBanner from "../Components/Home/BodyBanner";
@@ -19,9 +19,6 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const HomePage = () => {
   const { data, loading } = useLoadData();
-
-  
-  console.log(data.slice(0,2))
 
   const location = useLocation();
 
@@ -58,7 +55,9 @@ const HomePage = () => {
             <span className="text-primary animate-pulse inline-block">65%</span>{" "}
             Offer
           </h2>
-          <h3 className="text-3xl sm:text-4xl font-bold text-accent">Explore Now !</h3>
+          <h3 className="text-3xl sm:text-4xl font-bold text-accent">
+            Explore Now !
+          </h3>
         </Container>
 
         {/* populer toys */}
@@ -71,20 +70,25 @@ const HomePage = () => {
             {loading ? (
               <LoadingComponent></LoadingComponent>
             ) : (
-             <>
-              <section className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-5">
-                {data.slice(0,9).map((toy) => (
-                  <PopularCard
-                    key={toy.id}
-                    toy={toy}
-                    loading={loading}
-                  ></PopularCard>
-                ))}
-              </section>
-             <div className="grid place-items-center">
-               <button className="btn bg-gray-100 border-none shadow-none hover:bg-gray-200 rounded-full my-10 text-center flex items-center text-primary">Show More <FaLongArrowAltRight></FaLongArrowAltRight></button>
-             </div>
-             </>
+              <>
+                <section className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-5">
+                  {data.slice(0, 10).map((toy) => (
+                    <PopularCard
+                      key={toy.id}
+                      toy={toy}
+                      loading={loading}
+                    ></PopularCard>
+                  ))}
+                </section>
+                <div className="grid place-items-center">
+                  <Link
+                    to="/all-toys"
+                    className="btn bg-gray-100 border-none shadow-none hover:bg-gray-200 rounded-full my-10 text-center flex items-center text-primary"
+                  >
+                    Show More <FaLongArrowAltRight></FaLongArrowAltRight>
+                  </Link>
+                </div>
+              </>
             )}
           </Container>
         </section>
@@ -109,7 +113,7 @@ const HomePage = () => {
 
         {/* trusted brand */}
         <Container className="pb-20">
-        <TrustedBrands></TrustedBrands>
+          <TrustedBrands></TrustedBrands>
         </Container>
       </div>
     </>

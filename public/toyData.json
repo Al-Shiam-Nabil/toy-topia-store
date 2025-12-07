@@ -1,1666 +1,611 @@
 [
   {
-    "id": 1,
-    "name": "Lego Classic Bricks",
-    "slug": "lego-classic-bricks-set",
-    "brand": "LEGO",
-    "category": "Toys",
-    "subCategory": "Building Blocks",
-    "sku": "LEGO-CLSC-450",
-    "barcode": "8901234560011",
-    "modelNumber": "LCB-450",
-    "createdAt": "2025-12-04T10:00:00Z",
-    "updatedAt": "2025-12-04T10:00:00Z",
-    "pricing": {
-      "price": 49.99,
-      "currency": "USD",
-      "discountPercentage": 10,
-      "discountedPrice": 44.99,
-      "taxIncluded": true,
-      "taxPercentage": 7.5,
-      "finalPrice": 48.34,
-      "mrp": 54.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 75,
-      "reservedQuantity": 5,
-      "warehouseLocation": "WH-A3-Row4",
-      "lowStockThreshold": 10,
-      "stockStatus": "Available",
-      "restockDate": "2026-01-10"
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/PZgzp21F/ryan-wallace-5jtw-RBB3-Cd-I-unsplash-1.jpg",
-      "images": [
-        "https://i.ibb.co.com/PZgzp21F/ryan-wallace-5jtw-RBB3-Cd-I-unsplash-1.jpg"
-      ],
-      "gallery": [
-        {
-          "url": "https://i.ibb.co.com/PZgzp21F/ryan-wallace-5jtw-RBB3-Cd-I-unsplash-1.jpg",
-          "type": "image",
-          "alt": "Lego Classic Bricks Set"
-        }
-      ]
-    },
-    "description": {
-      "short": "Colorful Lego bricks promoting creativity and open-ended building.",
-      "long": "This Lego Classic Bricks set includes 450+ bricks of various shapes, enhancing creative expression, fine motor skills, and imagination.",
-      "features": [
-        "450+ colorful bricks",
-        "Idea booklet included",
-        "STEM learning support"
-      ]
-    },
-    "specifications": {
-      "color": "Multi-color",
-      "weight": "0.8 kg",
-      "dimensions": "Varied sizes",
-      "ageRecommendation": "4+ years",
-      "countryOfOrigin": "Denmark",
-      "batteryRequired": false
-    },
-    "packageInfo": {
-      "packageWeight": "1.1 kg",
-      "packageDimensions": "32 x 18 x 9 cm",
-      "packageIncludes": [
-        "450+ bricks",
-        "Inspiration manual"
-      ]
-    },
-    "safetyInfo": {
-      "warnings": [
-        "Choking hazard – small parts"
-      ],
-      "certifications": [
-        "ASTM",
-        "EN71",
-        "CE Certified"
-      ]
-    },
-    "sellerInfo": {
-      "sellerName": "Toys R Us Local",
-      "sellerEmail": "contact@toysruslocal.com"
-    },
-    "shipping": {
-      "deliveryTime": "3–5 days",
-      "shippingCharge": "Free"
-    },
-    "ratings": {
-      "averageRating": 4.7,
-      "totalReviews": 213
-    }
+    "id": "toy001",
+    "name": "Wooden Alphabet Blocks",
+    "brand": "KidCraft",
+    "category": "Educational",
+    "subCategory": "Blocks",
+    "price": 850,
+    "discountPrice": 750,
+    "inStock": 30,
+    "description": "This beautifully crafted toy is designed to support early childhood development through fun and interactive learning. Created with high-quality, non-toxic materials, it ensures complete safety while your child explores shapes, colors, letters, and creative play. The smooth edges and durable build make it suitable for everyday use, whether at home, in preschool activities, or during playdates. The toy encourages imagination while building motor skills, hand-eye coordination, and problem-solving abilities.",
+    "features": ["Non-toxic paint", "Durable wood"],
+    "materials": "Wood",
+    "ageRange": "2-6 years",
+    "dimensions": "15cm x 15cm",
+    "weight": "200g",
+    "image": "https://i.ibb.co.com/jPTG96gm/car2.jpg",
+    "sellerId": "seller101",
+    "sellerName": "ToyLand BD",
+    "sellerLocation": "Dhaka",
+    "sellerRating": 4.7,
+    "averageRating": 4.5,
+    "totalReviews": 12,
+    "reviews": [],
+    "safetyWarnings": ["Choking hazard for under 2 years"],
+    "certifications": ["CE"],
+    "deliveryTime": "2-3 days",
+    "shippingCost": 50,
+    "soldCount": 80,
+    "tags": ["trending", "educational"]
   },
+
   {
-    "id": 2,
-    "name": "Barbie Dreamhouse",
-    "slug": "barbie-dreamhouse-luxury-set",
-    "brand": "Barbie",
-    "category": "Toys",
-    "subCategory": "Dolls",
-    "sku": "BRB-DH-2025",
-    "barcode": "8901234560022",
-    "modelNumber": "BDH-LUX-3FLR",
-    "pricing": {
-      "price": 129.99,
-      "currency": "USD",
-      "discountPercentage": 5,
-      "discountedPrice": 123.49,
-      "taxIncluded": true,
-      "finalPrice": 132.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 40
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/dwvhGNrn/steinar-engeland-drw6-Rt-OKDi-A-unsplash-1.jpg",
-      "images": [
-        "https://i.ibb.co.com/dwvhGNrn/steinar-engeland-drw6-Rt-OKDi-A-unsplash-1.jpg"
-      ]
-    },
-    "description": {
-      "short": "A luxurious three-floor Barbie dreamhouse with lights and sound features.",
-      "long": "This Dreamhouse includes multiple rooms, elevators, LED lights, realistic sounds, furniture sets and endless storytelling fun."
-    },
-    "specifications": {
-      "color": "Pink with accents",
-      "dimensions": "38 x 15 x 45 inches",
-      "weight": "6.5 kg",
-      "ageRecommendation": "5+ years"
-    },
-    "packageInfo": {
-      "packageWeight": "8 kg",
-      "packageIncludes": [
-        "Dreamhouse",
-        "Furniture set"
-      ]
-    },
-    "safetyInfo": {
-      "warnings": [
-        "Small accessories – adult supervision recommended"
-      ],
-      "certifications": [
-        "EN71",
-        "ASTM"
-      ]
-    },
-    "sellerInfo": {
-      "sellerName": "Doll World",
-      "sellerEmail": "info@dollworld.com"
-    },
-    "shipping": {
-      "deliveryTime": "5–7 days"
-    },
-    "ratings": {
-      "averageRating": 4.8,
-      "totalReviews": 516
-    }
+    "id": "toy002",
+    "name": "Colorful Shape Sorter Box",
+    "brand": "BabyEdu",
+    "category": "Educational",
+    "subCategory": "Shape Toys",
+    "price": 650,
+    "discountPrice": 550,
+    "inStock": 50,
+    "description": "This shape sorter box helps toddlers learn shapes, colors, and problem-solving through engaging play. Made with child-safe materials and smooth edges, it promotes fine motor skills and hand-eye coordination. The lightweight design makes it perfect for both home and travel.",
+    "features": ["12 shapes", "Smooth edges"],
+    "materials": "Plastic",
+    "ageRange": "1-4 years",
+    "dimensions": "18cm x 18cm",
+    "weight": "250g",
+    "image": "https://i.ibb.co.com/67H8WcWc/toy3.jpg",
+    "sellerId": "seller102",
+    "sellerName": "KidsWorld",
+    "sellerLocation": "Chittagong",
+    "sellerRating": 4.6,
+    "averageRating": 4.4,
+    "totalReviews": 8,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": ["CE"],
+    "deliveryTime": "3-5 days",
+    "shippingCost": 40,
+    "soldCount": 60,
+    "tags": ["colorful", "best-seller"]
   },
+
   {
-    "id": 3,
-    "name": "Hot Mega Track",
-    "slug": "hot-mega-car-track",
-    "brand": "Hot Wheels",
-    "category": "Toys",
-    "subCategory": "Vehicles",
-    "sku": "HOT-MEGA-TRK",
-    "barcode": "8901234560033",
-    "pricing": {
-      "price": 59.99,
-      "currency": "USD",
-      "discountPercentage": 0,
-      "finalPrice": 59.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 60
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/zhcRh2cZ/taylor-heery-1r8-ZIY1-N5-Cs-unsplash-1.jpg",
-      "images": [
-        "https://i.ibb.co.com/zhcRh2cZ/taylor-heery-1r8-ZIY1-N5-Cs-unsplash-1.jpg"
-      ]
-    },
-    "description": {
-      "short": "High-speed Hot Wheels racing track with loops and stunts.",
-      "long": "This mega track includes multi-loop tracks, jump ramps, boosters and high-action stunt features."
-    },
-    "specifications": {
-      "dimensions": "Variable track size",
-      "weight": "2.1 kg",
-      "ageRecommendation": "6+ years"
-    },
-    "sellerInfo": {
-      "sellerName": "Speedy Toys",
-      "sellerEmail": "sales@speedytoys.com"
-    },
-    "ratings": {
-      "averageRating": 4.6,
-      "totalReviews": 342
-    }
+    "id": "toy003",
+    "name": "Cute Teddy Bear Plush",
+    "brand": "SoftHugs",
+    "category": "Soft Toys",
+    "subCategory": "Plush",
+    "price": 500,
+    "discountPrice": 450,
+    "inStock": 80,
+    "description": "A super-soft teddy bear that provides comfort and companionship to babies and toddlers. Made from hypoallergenic materials, it’s safe for hugging, sleeping, and everyday play.",
+    "features": ["Hypoallergenic", "Ultra soft"],
+    "materials": "Fabric",
+    "ageRange": "0-6 years",
+    "dimensions": "25cm height",
+    "weight": "150g",
+    "image": "https://i.ibb.co.com/Zzkz16Jr/toy6.jpg",
+    "sellerId": "seller103",
+    "sellerName": "SoftToy BD",
+    "sellerLocation": "Sylhet",
+    "sellerRating": 4.8,
+    "averageRating": 4.9,
+    "totalReviews": 25,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": [],
+    "deliveryTime": "2-4 days",
+    "shippingCost": 30,
+    "soldCount": 200,
+    "tags": ["soft", "cute", "popular"]
   },
+
   {
-    "id": 4,
-    "name": "Teddy Bear Plush",
-    "slug": "teddy-bear-soft-plush",
-    "brand": "Cuddle Corner",
-    "category": "Toys",
-    "subCategory": "Stuffed Animals",
-    "sku": "TEDDY-SOFT-24",
-    "barcode": "8901234560044",
-    "pricing": {
-      "price": 24.99,
-      "currency": "USD",
-      "finalPrice": 24.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 120
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/Sw3jP6gJ/jerry-wang-q-Br-F1yu5-Wys-unsplash-1.jpg",
-      "images": [
-        "https://i.ibb.co.com/Sw3jP6gJ/jerry-wang-q-Br-F1yu5-Wys-unsplash-1.jpg"
-      ]
-    },
-    "description": {
-      "short": "Super-soft teddy plush toy for cuddles and comfort.",
-      "long": "Made with premium velvet fabric and hypoallergenic filling suitable for kids."
-    },
-    "specifications": {
-      "dimensions": "20 inches tall",
-      "material": "Hypoallergenic plush"
-    },
-    "sellerInfo": {
-      "sellerName": "Cuddle Corner",
-      "sellerEmail": "hello@cuddlecorner.com"
-    },
-    "ratings": {
-      "averageRating": 4.9,
-      "totalReviews": 421
-    }
+    "id": "toy004",
+    "name": "Mini Police Car Toy",
+    "brand": "TinyWheels",
+    "category": "Vehicles",
+    "subCategory": "Cars",
+    "price": 300,
+    "discountPrice": 260,
+    "inStock": 45,
+    "description": "A durable mini police car designed for exciting pretend play. Kids can enjoy smooth-rolling wheels, realistic design, and a strong build for long play sessions.",
+    "features": ["Smooth wheels", "Realistic design"],
+    "materials": "Plastic",
+    "ageRange": "3-7 years",
+    "dimensions": "10cm length",
+    "weight": "120g",
+    "image": "https://i.ibb.co.com/60nwDd3F/toy7.jpg",
+    "sellerId": "seller104",
+    "sellerName": "ToyGarage",
+    "sellerLocation": "Dhaka",
+    "sellerRating": 4.4,
+    "averageRating": 4.1,
+    "totalReviews": 5,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": [],
+    "deliveryTime": "2-3 days",
+    "shippingCost": 30,
+    "soldCount": 45,
+    "tags": ["vehicle", "fun"]
   },
+
   {
-    "id": 5,
-    "name": "Remote Control Drone",
-    "slug": "kids-rc-drone-camera",
-    "brand": "TechToys Hub",
-    "category": "Toys",
-    "subCategory": "Remote Control Toys",
-    "sku": "DRONE-KIDS-HD",
-    "barcode": "8901234560055",
-    "pricing": {
-      "price": 89.99,
-      "currency": "USD"
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 35
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/Y7tKkZVq/vertical-selective-focus-shot-red-wagon-blue-car-placed-each-other-wooden-table-1.jpg",
-      "images": [
-        "https://i.ibb.co.com/Y7tKkZVq/vertical-selective-focus-shot-red-wagon-blue-car-placed-each-other-wooden-table-1.jpg"
-      ]
-    },
-    "description": {
-      "short": "Compact RC drone with HD camera and kid-friendly controls.",
-      "long": "Stable flight, beginner mode, auto-land feature, and 720p HD recording."
-    },
-    "specifications": {
-      "battery": "1200mAh Li-ion",
-      "flightTime": "12 minutes",
-      "range": "60 meters"
-    },
-    "sellerInfo": {
-      "sellerName": "TechToys Hub",
-      "sellerEmail": "support@techtoyshub.com"
-    },
-    "ratings": {
-      "averageRating": 4.5,
-      "totalReviews": 188
-    }
+    "id": "toy005",
+    "name": "Baby Rattle Set",
+    "brand": "LittleJoy",
+    "category": "Baby Toys",
+    "subCategory": "Rattles",
+    "price": 350,
+    "discountPrice": 300,
+    "inStock": 60,
+    "description": "A colorful rattle set that produces soft sounds to stimulate your baby’s senses. Lightweight, safe, and perfect for tiny hands.",
+    "features": ["Soft sound", "Lightweight"],
+    "materials": "Plastic",
+    "ageRange": "0-3 years",
+    "dimensions": "Varies",
+    "weight": "80g",
+    "image": "https://i.ibb.co.com/BVv9Ytv8/toy8.jpg",
+    "sellerId": "seller105",
+    "sellerName": "BabyZone",
+    "sellerLocation": "Khulna",
+    "sellerRating": 4.7,
+    "averageRating": 4.6,
+    "totalReviews": 10,
+    "reviews": [],
+    "safetyWarnings": ["Do not submerge in water"],
+    "certifications": [],
+    "deliveryTime": "3-4 days",
+    "shippingCost": 30,
+    "soldCount": 95,
+    "tags": ["baby", "colorful"]
   },
+
   {
-    "id": 6,
-    "name": "Magnetic Buildings",
-    "slug": "magnetic-buildings-tiles",
-    "brand": "Creative Minds",
-    "category": "Toys",
-    "subCategory": "Educational Toys",
-    "sku": "MAG-BLD-100",
-    "barcode": "8901234560066",
-    "pricing": {
-      "price": 39.99,
-      "currency": "USD"
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 90
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/vMx2qSk/green-easter-car-with-yellow-egg-1.jpg",
-      "images": [
-        "https://i.ibb.co.com/vMx2qSk/green-easter-car-with-yellow-egg-1.jpg"
-      ]
-    },
-    "description": {
-      "short": "Colorful magnetic tiles for 3D building fun.",
-      "long": "Kids can build towers, animals, structures and improve cognitive & motor skills."
-    },
-    "specifications": {
-      "material": "Magnetic ABS tiles",
-      "ageRecommendation": "3+ years"
-    },
-    "sellerInfo": {
-      "sellerName": "Creative Minds",
-      "sellerEmail": "info@creativeminds.com"
-    },
-    "ratings": {
-      "averageRating": 3.8,
-      "totalReviews": 289
-    }
+    "id": "toy006",
+    "name": "Wooden Number Puzzle",
+    "brand": "EduFun",
+    "category": "Educational",
+    "subCategory": "Puzzle",
+    "price": 420,
+    "discountPrice": 380,
+    "inStock": 35,
+    "description": "This wooden number puzzle teaches toddlers the basics of counting, number recognition, and cognitive development through hands-on learning.",
+    "features": ["Bright colors", "Durable"],
+    "materials": "Wood",
+    "ageRange": "2-5 years",
+    "dimensions": "22cm x 15cm",
+    "weight": "180g",
+    "image": "https://i.ibb.co.com/vxz5QBHj/toy9.jpg",
+    "sellerId": "seller106",
+    "sellerName": "EduToys",
+    "sellerLocation": "Dhaka",
+    "sellerRating": 4.5,
+    "averageRating": 4.3,
+    "totalReviews": 6,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": ["CE"],
+    "deliveryTime": "2-3 days",
+    "shippingCost": 40,
+    "soldCount": 70,
+    "tags": ["educational", "puzzle"]
   },
+
   {
-    "id": 7,
-    "name": "Remote Control Monster Truck",
-    "slug": "remote-control-monster-truck",
-    "brand": "OffRoadX",
-    "category": "Toys",
-    "subCategory": "Remote Control",
-    "sku": "RCMT-775",
-    "barcode": "8901234561007",
-    "modelNumber": "ORX-MT77",
-    "createdAt": "2025-12-04T10:00:00Z",
-    "updatedAt": "2025-12-04T10:00:00Z",
-    "pricing": {
-      "price": 79.99,
-      "currency": "USD",
-      "discountPercentage": 15,
-      "discountedPrice": 67.99,
-      "taxIncluded": true,
-      "taxPercentage": 7.5,
-      "finalPrice": 72.09,
-      "mrp": 89.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 40,
-      "reservedQuantity": 6,
-      "warehouseLocation": "WH-B1-Rack3",
-      "lowStockThreshold": 8,
-      "stockStatus": "Available",
-      "restockDate": "2026-01-20"
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/9V0n1gY/truck1.jpg",
-      "images": [
-        "https://i.ibb.co.com/9V0n1gY/truck1.jpg",
-        "https://i.ibb.co.com/LzksCd1/truck2.jpg"
-      ],
-      "gallery": [
-        {
-          "url": "https://i.ibb.co.com/9V0n1gY/truck1.jpg",
-          "type": "image",
-          "alt": "Monster Truck Front View"
-        },
-        {
-          "url": "https://i.ibb.co.com/LzksCd1/truck2.jpg",
-          "type": "image",
-          "alt": "Monster Truck Side View"
-        }
-      ]
-    },
-    "description": {
-      "short": "High-speed monster truck with rugged tires and 2.4GHz remote.",
-      "long": "This OffRoadX Monster Truck delivers exceptional performance on rough terrains with long-range remote control, shockproof body, and powerful torque motors.",
-      "features": [
-        "2.4GHz long-range remote",
-        "Shockproof suspension",
-        "High-grip tires",
-        "Rechargeable battery included"
-      ]
-    },
-    "specifications": {
-      "color": "Red/Black",
-      "weight": "1.2 kg",
-      "dimensions": "28 x 20 x 15 cm",
-      "ageRecommendation": "6+ years",
-      "countryOfOrigin": "China",
-      "batteryRequired": true
-    },
-    "packageInfo": {
-      "packageWeight": "1.6 kg",
-      "packageDimensions": "35 x 22 x 18 cm",
-      "packageIncludes": [
-        "Monster truck",
-        "2.4GHz remote",
-        "Rechargeable battery",
-        "USB charger"
-      ]
-    },
-    "safetyInfo": {
-      "warnings": [
-        "Small parts – choking hazard"
-      ],
-      "certifications": [
-        "ASTM",
-        "CE Certified"
-      ]
-    },
-    "sellerInfo": {
-      "sellerName": "PlayTech Distributors",
-      "sellerEmail": "support@playtech.com"
-    },
-    "shipping": {
-      "deliveryTime": "4–7 days",
-      "shippingCharge": "Free"
-    },
-    "ratings": {
-      "averageRating": 4.5,
-      "totalReviews": 155
-    }
+    "id": "toy007",
+    "name": "Kids Doctor Play Set",
+    "brand": "PretendCare",
+    "category": "Pretend Play",
+    "subCategory": "Doctor Kit",
+    "price": 950,
+    "discountPrice": 850,
+    "inStock": 25,
+    "description": "A full doctor play kit that encourages kids to learn about health care through role-play. Includes stethoscope, thermometer, syringe, and more.",
+    "features": ["10 pcs set", "Durable"],
+    "materials": "Plastic",
+    "ageRange": "3-8 years",
+    "dimensions": "Bag: 22cm",
+    "weight": "300g",
+    "image": "https://i.ibb.co.com/ZzPj2tsh/toy10.jpg",
+    "sellerId": "seller107",
+    "sellerName": "FunPlay BD",
+    "sellerLocation": "Rajshahi",
+    "sellerRating": 4.8,
+    "averageRating": 4.6,
+    "totalReviews": 14,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": [],
+    "deliveryTime": "3-5 days",
+    "shippingCost": 60,
+    "soldCount": 120,
+    "tags": ["pretend-play", "doctor-kit"]
   },
+
   {
-    "id": 8,
-    "name": "Barbie Dream Dollhouse",
-    "slug": "barbie-dream-dollhouse",
-    "brand": "Barbie",
-    "category": "Toys",
-    "subCategory": "Dolls",
-    "sku": "BRB-DH500",
-    "barcode": "8901234561008",
-    "modelNumber": "BDH-500",
-    "createdAt": "2025-12-04T10:00:00Z",
-    "updatedAt": "2025-12-04T10:00:00Z",
-    "pricing": {
-      "price": 199.99,
-      "currency": "USD",
-      "discountPercentage": 12,
-      "discountedPrice": 175.99,
-      "taxIncluded": true,
-      "taxPercentage": 7.5,
-      "finalPrice": 189.19,
-      "mrp": 219.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 25,
-      "reservedQuantity": 3,
-      "warehouseLocation": "WH-A7-Floor2",
-      "lowStockThreshold": 5,
-      "stockStatus": "Available",
-      "restockDate": "2026-02-10"
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/4djt6Vz/doll1.jpg",
-      "images": [
-        "https://i.ibb.co.com/4djt6Vz/doll1.jpg",
-        "https://i.ibb.co.com/yh3k0Mz/doll2.jpg"
-      ],
-      "gallery": [
-        {
-          "url": "https://i.ibb.co.com/4djt6Vz/doll1.jpg",
-          "type": "image",
-          "alt": "Barbie Dream House Front"
-        },
-        {
-          "url": "https://i.ibb.co.com/yh3k0Mz/doll2.jpg",
-          "type": "image",
-          "alt": "Barbie Dream House Inside"
-        }
-      ]
-    },
-    "description": {
-      "short": "3-story Barbie Dream Dollhouse with furniture, lights & sounds.",
-      "long": "A luxurious 3-story dollhouse featuring over 70 accessories, interactive lighting, sound effects, and a working elevator. Perfect for encouraging pretend play.",
-      "features": [
-        "3-story building",
-        "Working elevator",
-        "Lights & sound effects",
-        "70+ accessories included"
-      ]
-    },
-    "specifications": {
-      "color": "Pink",
-      "weight": "5.4 kg",
-      "dimensions": "110 x 90 x 35 cm",
-      "ageRecommendation": "3+ years",
-      "countryOfOrigin": "USA",
-      "batteryRequired": true
-    },
-    "packageInfo": {
-      "packageWeight": "6.8 kg",
-      "packageDimensions": "120 x 95 x 40 cm",
-      "packageIncludes": [
-        "Dollhouse",
-        "Furniture pieces",
-        "Accessories set",
-        "Instruction manual"
-      ]
-    },
-    "safetyInfo": {
-      "warnings": [
-        "Adult assembly required"
-      ],
-      "certifications": [
-        "ASTM",
-        "EN71"
-      ]
-    },
-    "sellerInfo": {
-      "sellerName": "Bright Kids Store",
-      "sellerEmail": "help@brightkids.com"
-    },
-    "shipping": {
-      "deliveryTime": "5–8 days",
-      "shippingCharge": "Free"
-    },
-    "ratings": {
-      "averageRating": 4.8,
-      "totalReviews": 320
-    }
-  },
-  {
-    "id": 9,
-    "name": "Hot Wheels Mega Track Set",
-    "slug": "hot-wheels-mega-track-set",
-    "brand": "Hot Wheels",
-    "category": "Toys",
-    "subCategory": "Vehicles",
-    "sku": "HW-TRACK900",
-    "barcode": "8901234561009",
-    "modelNumber": "HWM-900",
-    "createdAt": "2025-12-04T10:00:00Z",
-    "updatedAt": "2025-12-04T10:00:00Z",
-    "pricing": {
-      "price": 129.99,
-      "currency": "USD",
-      "discountPercentage": 10,
-      "discountedPrice": 116.99,
-      "taxIncluded": true,
-      "taxPercentage": 7.5,
-      "finalPrice": 125.74,
-      "mrp": 139.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 50,
-      "reservedQuantity": 4,
-      "warehouseLocation": "WH-F2-Sector1",
-      "lowStockThreshold": 12,
-      "stockStatus": "Available",
-      "restockDate": "2026-02-01"
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/hL1fM0G/hw1.jpg",
-      "images": [
-        "https://i.ibb.co.com/hL1fM0G/hw1.jpg",
-        "https://i.ibb.co.com/g9rp9rK/hw2.jpg"
-      ],
-      "gallery": [
-        {
-          "url": "https://i.ibb.co.com/hL1fM0G/hw1.jpg",
-          "type": "image",
-          "alt": "Hot Wheels Track Set"
-        },
-        {
-          "url": "https://i.ibb.co.com/g9rp9rK/hw2.jpg",
-          "type": "image",
-          "alt": "Hot Wheels Loop"
-        }
-      ]
-    },
-    "description": {
-      "short": "Mega loops, launchers, and 4 Hot Wheels cars included.",
-      "long": "This Hot Wheels Mega Track Set includes high-speed launchers, giant loops, and 4 metal cars. Designed for thrilling stunts and creative track building.",
-      "features": [
-        "4 Hot Wheels cars",
-        "Multiple track configurations",
-        "High-speed launchers",
-        "Durable loop system"
-      ]
-    },
-    "specifications": {
-      "color": "Multicolor",
-      "weight": "3.4 kg",
-      "dimensions": "Various track pieces",
-      "ageRecommendation": "5+ years",
-      "countryOfOrigin": "Malaysia",
-      "batteryRequired": false
-    },
-    "packageInfo": {
-      "packageWeight": "4.2 kg",
-      "packageDimensions": "60 x 40 x 20 cm",
-      "packageIncludes": [
-        "Track pieces",
-        "4 Cars",
-        "Instruction manual"
-      ]
-    },
-    "safetyInfo": {
-      "warnings": [
-        "Do not launch at face"
-      ],
-      "certifications": [
-        "CE Certified",
-        "EN71"
-      ]
-    },
-    "sellerInfo": {
-      "sellerName": "SuperToy Hub",
-      "sellerEmail": "support@supertoyhub.com"
-    },
-    "shipping": {
-      "deliveryTime": "3–6 days",
-      "shippingCharge": "Free"
-    },
-    "ratings": {
-      "averageRating": 4.6,
-      "totalReviews": 270
-    }
-  },
-  {
-    "id": 10,
-    "name": "Nerf Elite Blaster X-Strike",
-    "slug": "nerf-elite-blaster-x-strike",
-    "brand": "NERF",
-    "category": "Toys",
-    "subCategory": "Blasters",
-    "sku": "NRF-XSTRK-300",
-    "barcode": "8901234561010",
-    "modelNumber": "NX-300",
-    "createdAt": "2025-12-04T10:00:00Z",
-    "updatedAt": "2025-12-04T10:00:00Z",
-    "pricing": {
-      "price": 59.99,
-      "currency": "USD",
-      "discountPercentage": 8,
-      "discountedPrice": 55.19,
-      "taxIncluded": true,
-      "taxPercentage": 7.5,
-      "finalPrice": 59.34,
-      "mrp": 69.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 80,
-      "reservedQuantity": 10,
-      "warehouseLocation": "WH-C4-Row6",
-      "lowStockThreshold": 12,
-      "stockStatus": "Available",
-      "restockDate": "2026-01-15"
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/kKz5M1M/nerf1.jpg",
-      "images": [
-        "https://i.ibb.co.com/kKz5M1M/nerf1.jpg",
-        "https://i.ibb.co.com/JzFK6Mw/nerf2.jpg"
-      ],
-      "gallery": [
-        {
-          "url": "https://i.ibb.co.com/kKz5M1M/nerf1.jpg",
-          "type": "image",
-          "alt": "Nerf Elite Blaster Front"
-        },
-        {
-          "url": "https://i.ibb.co.com/JzFK6Mw/nerf2.jpg",
-          "type": "image",
-          "alt": "Nerf Blaster Action Shot"
-        }
-      ]
-    },
-    "description": {
-      "short": "High-power Nerf Elite blaster with long-range accuracy.",
-      "long": "The Nerf Elite X-Strike blaster features long-range precision, quick reload system, and 20 elite darts. Designed for competitive battle play with improved firing stability.",
-      "features": [
-        "20 elite darts",
-        "Long-range firing",
-        "Quick reload magazine",
-        "Ergonomic grip"
-      ]
-    },
-    "specifications": {
-      "color": "Blue/Orange",
-      "weight": "0.9 kg",
-      "dimensions": "38 x 20 x 8 cm",
-      "ageRecommendation": "8+ years",
-      "countryOfOrigin": "Vietnam",
-      "batteryRequired": false
-    },
-    "packageInfo": {
-      "packageWeight": "1.2 kg",
-      "packageDimensions": "42 x 24 x 10 cm",
-      "packageIncludes": [
-        "Blaster",
-        "20 darts",
-        "Instruction manual"
-      ]
-    },
-    "safetyInfo": {
-      "warnings": [
-        "Do not aim at eyes or face"
-      ],
-      "certifications": [
-        "ASTM",
-        "CE Certified"
-      ]
-    },
-    "sellerInfo": {
-      "sellerName": "RapidFire Toys",
-      "sellerEmail": "support@rapidfiretoys.com"
-    },
-    "shipping": {
-      "deliveryTime": "3–6 days",
-      "shippingCharge": "Free"
-    },
-    "ratings": {
-      "averageRating": 4.4,
-      "totalReviews": 188
-    }
-  },
-  {
-    "id": 11,
-    "name": "Disney Princess Castle Playset",
-    "slug": "disney-princess-castle-playset",
-    "brand": "Disney",
-    "category": "Toys",
-    "subCategory": "Role Play",
-    "sku": "DSP-CSTL-800",
-    "barcode": "8901234561011",
-    "modelNumber": "DP-800",
-    "createdAt": "2025-12-04T10:00:00Z",
-    "updatedAt": "2025-12-04T10:00:00Z",
-    "pricing": {
-      "price": 149.99,
-      "currency": "USD",
-      "discountPercentage": 10,
-      "discountedPrice": 134.99,
-      "taxIncluded": true,
-      "taxPercentage": 7.5,
-      "finalPrice": 144.11,
-      "mrp": 169.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 32,
-      "reservedQuantity": 4,
-      "warehouseLocation": "WH-D2-Row1",
-      "lowStockThreshold": 6,
-      "stockStatus": "Available",
-      "restockDate": "2026-02-05"
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/Lrw0nZ5/castle1.jpg",
-      "images": [
-        "https://i.ibb.co.com/Lrw0nZ5/castle1.jpg",
-        "https://i.ibb.co.com/mHnj6YW/castle2.jpg"
-      ],
-      "gallery": [
-        {
-          "url": "https://i.ibb.co.com/Lrw0nZ5/castle1.jpg",
-          "type": "image",
-          "alt": "Disney Castle Front View"
-        },
-        {
-          "url": "https://i.ibb.co.com/mHnj6YW/castle2.jpg",
-          "type": "image",
-          "alt": "Disney Castle Inside Rooms"
-        }
-      ]
-    },
-    "description": {
-      "short": "Magical 4-story Disney princess castle with characters & lights.",
-      "long": "This enchanting Disney Princess Castle Playset features multiple themed rooms, working lights, music features, and 6 miniature princess figures. Great for imaginative role play.",
-      "features": [
-        "4-story castle",
-        "Lights & music",
-        "6 princess figures",
-        "20+ accessories"
-      ]
-    },
-    "specifications": {
-      "color": "Pink/Gold",
-      "weight": "4.8 kg",
-      "dimensions": "95 x 75 x 30 cm",
-      "ageRecommendation": "3+ years",
-      "countryOfOrigin": "China",
-      "batteryRequired": true
-    },
-    "packageInfo": {
-      "packageWeight": "6.2 kg",
-      "packageDimensions": "105 x 80 x 35 cm",
-      "packageIncludes": [
-        "Castle playset",
-        "Princess figures",
-        "Accessories",
-        "Setup manual"
-      ]
-    },
-    "safetyInfo": {
-      "warnings": [
-        "Adult assembly required"
-      ],
-      "certifications": [
-        "ASTM",
-        "EN71"
-      ]
-    },
-    "sellerInfo": {
-      "sellerName": "MagicWorld Toys",
-      "sellerEmail": "care@magicworldtoys.com"
-    },
-    "shipping": {
-      "deliveryTime": "5–9 days",
-      "shippingCharge": "Free"
-    },
-    "ratings": {
-      "averageRating": 4.9,
-      "totalReviews": 401
-    }
-  },
-  {
-    "id": 12,
-    "name": "Play-Doh Super Creator Pack",
-    "slug": "play-doh-super-creator-pack",
-    "brand": "Play-Doh",
-    "category": "Toys",
-    "subCategory": "Creative",
-    "sku": "PD-SCP-120",
-    "barcode": "8901234561012",
-    "modelNumber": "PD-120",
-    "createdAt": "2025-12-04T10:00:00Z",
-    "updatedAt": "2025-12-04T10:00:00Z",
-    "pricing": {
-      "price": 34.99,
-      "currency": "USD",
-      "discountPercentage": 5,
-      "discountedPrice": 33.24,
-      "taxIncluded": true,
-      "taxPercentage": 7.5,
-      "finalPrice": 35.73,
-      "mrp": 39.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 120,
-      "reservedQuantity": 8,
-      "warehouseLocation": "WH-E3-Section4",
-      "lowStockThreshold": 20,
-      "stockStatus": "Available",
-      "restockDate": "2026-01-25"
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/Qkr2sC7/pd1.jpg",
-      "images": [
-        "https://i.ibb.co.com/Qkr2sC7/pd1.jpg",
-        "https://i.ibb.co.com/tZV2Z6T/pd2.jpg"
-      ],
-      "gallery": [
-        {
-          "url": "https://i.ibb.co.com/Qkr2sC7/pd1.jpg",
-          "type": "image",
-          "alt": "Play-Doh Pack Front"
-        },
-        {
-          "url": "https://i.ibb.co.com/tZV2Z6T/pd2.jpg",
-          "type": "image",
-          "alt": "Play-Doh Tools Set"
-        }
-      ]
-    },
-    "description": {
-      "short": "Bright, soft Play-Doh set with tools for creative shaping.",
-      "long": "The Play-Doh Super Creator Pack includes 12 bright color cans, shaping tools, rollers, and cutters. Perfect for sensory play, creativity, and early motor skill development.",
-      "features": [
-        "12 Play-Doh cans",
-        "Multiple shaping tools",
-        "Non-toxic formula",
-        "Reusable storage box"
-      ]
-    },
-    "specifications": {
-      "color": "Multi-color",
-      "weight": "1.4 kg",
-      "dimensions": "Varied tools",
-      "ageRecommendation": "3+ years",
-      "countryOfOrigin": "USA",
-      "batteryRequired": false
-    },
-    "packageInfo": {
-      "packageWeight": "1.7 kg",
-      "packageDimensions": "35 x 25 x 12 cm",
-      "packageIncludes": [
-        "12 cans",
-        "Tools",
-        "Rollers",
-        "Cutters"
-      ]
-    },
-    "safetyInfo": {
-      "warnings": [
-        "Not for eating"
-      ],
-      "certifications": [
-        "ASTM",
-        "CE Certified"
-      ]
-    },
-    "sellerInfo": {
-      "sellerName": "ColorCraft Toys",
-      "sellerEmail": "support@colorcraft.com"
-    },
-    "shipping": {
-      "deliveryTime": "3–5 days",
-      "shippingCharge": "Free"
-    },
-    "ratings": {
-      "averageRating": 4.6,
-      "totalReviews": 210
-    }
-  },
-  {
-    "id": 13,
-    "name": "KidZee Educational Tablet Toy",
-    "slug": "kidzee-educational-tablet-toy",
-    "brand": "KidZee",
-    "category": "Toys",
-    "subCategory": "Educational",
-    "sku": "KZ-EDUTAB-450",
-    "barcode": "8901234561013",
-    "modelNumber": "KZ-T450",
-    "createdAt": "2025-12-04T10:00:00Z",
-    "updatedAt": "2025-12-04T10:00:00Z",
-    "pricing": {
-      "price": 44.99,
-      "currency": "USD",
-      "discountPercentage": 10,
-      "discountedPrice": 40.49,
-      "taxIncluded": true,
-      "taxPercentage": 7.5,
-      "finalPrice": 43.53,
-      "mrp": 49.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 95,
-      "reservedQuantity": 7,
-      "warehouseLocation": "WH-F5-Rack7",
-      "lowStockThreshold": 15,
-      "stockStatus": "Available",
-      "restockDate": "2026-01-30"
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/GRvmn7G/tab1.jpg",
-      "images": [
-        "https://i.ibb.co.com/GRvmn7G/tab1.jpg",
-        "https://i.ibb.co.com/5WqRCKF/tab2.jpg"
-      ],
-      "gallery": [
-        {
-          "url": "https://i.ibb.co.com/GRvmn7G/tab1.jpg",
-          "type": "image",
-          "alt": "KidZee Tablet Front"
-        },
-        {
-          "url": "https://i.ibb.co.com/5WqRCKF/tab2.jpg",
-          "type": "image",
-          "alt": "KidZee Tablet Buttons"
-        }
-      ]
-    },
-    "description": {
-      "short": "Interactive learning tablet with songs, alphabets, and games.",
-      "long": "KidZee Educational Tablet features touch buttons, alphabet learning, smart voice feedback, number songs, and early learning games. Ideal for preschool children.",
-      "features": [
-        "Alphabet learning",
-        "Number songs",
-        "Interactive games",
-        "Sound & music features"
-      ]
-    },
-    "specifications": {
-      "color": "Blue/Yellow",
-      "weight": "0.6 kg",
-      "dimensions": "25 x 18 x 3 cm",
-      "ageRecommendation": "2+ years",
-      "countryOfOrigin": "China",
-      "batteryRequired": true
-    },
-    "packageInfo": {
-      "packageWeight": "0.9 kg",
-      "packageDimensions": "30 x 22 x 4 cm",
-      "packageIncludes": [
-        "Tablet toy",
-        "User guide"
-      ]
-    },
-    "safetyInfo": {
-      "warnings": [
-        "Keep away from water"
-      ],
-      "certifications": [
-        "CE Certified",
-        "EN71"
-      ]
-    },
-    "sellerInfo": {
-      "sellerName": "Learning Fun Mart",
-      "sellerEmail": "contact@learningfunmart.com"
-    },
-    "shipping": {
-      "deliveryTime": "3–5 days",
-      "shippingCharge": "Free"
-    },
-    "ratings": {
-      "averageRating": 4.3,
-      "totalReviews": 162
-    }
-  },
-  {
-    "id": 14,
-    "name": "Sculpted Hero Duo Set",
-    "slug": "sculpted-hero-duo-set",
-    "brand": "PowerMax",
-    "category": "Toys",
-    "subCategory": "Action Figures",
-    "sku": "PM-HERO-DUO-014",
-    "barcode": "8901234564014",
-    "modelNumber": "SHD-014",
-    "createdAt": "2025-12-04T10:00:00Z",
-    "updatedAt": "2025-12-04T10:00:00Z",
-    "pricing": {
-      "price": 29.99,
-      "currency": "USD",
-      "discountPercentage": 12,
-      "discountedPrice": 26.39,
-      "taxIncluded": true,
-      "taxPercentage": 7.5,
-      "finalPrice": 28.37,
-      "mrp": 34.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 42,
-      "reservedQuantity": 3,
-      "warehouseLocation": "WH-B2-Row8",
-      "lowStockThreshold": 8,
-      "stockStatus": "Available",
-      "restockDate": "2026-02-14"
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/2sqCM6S/fig1.jpg",
-      "images": [
-        "https://i.ibb.co.com/2sqCM6S/fig1.jpg",
-        "https://i.ibb.co.com/ZTwCLtF/fig2.jpg"
-      ],
-      "gallery": [
-        {
-          "url": "https://i.ibb.co.com/2sqCM6S/fig1.jpg",
-          "type": "image",
-          "alt": "Hero Figure Duo"
-        }
-      ]
-    },
-    "description": {
-      "short": "Premium articulated superhero action figure duo.",
-      "long": "This Sculpted Hero Duo set includes two highly detailed action figures with full articulation, interchangeable accessories, and collector-grade finishing.",
-      "features": [
-        "Interchangeable hands",
-        "Collector-grade detailing",
-        "Durable ABS build"
-      ]
-    },
-    "specifications": {
-      "color": "Multicolor",
-      "weight": "0.6 kg",
-      "dimensions": "Height 7 inches",
-      "ageRecommendation": "6+ years",
-      "countryOfOrigin": "China",
-      "batteryRequired": false
-    },
-    "packageInfo": {
-      "packageWeight": "0.8 kg",
-      "packageDimensions": "28 x 20 x 7 cm",
-      "packageIncludes": [
-        "2 Figures",
-        "4 Accessories",
-        "Display Stands"
-      ]
-    },
-    "safetyInfo": {
-      "warnings": [
-        "Choking hazard – small accessories"
-      ],
-      "certifications": [
-        "ASTM",
-        "EN71",
-        "CE Certified"
-      ]
-    },
-    "sellerInfo": {
-      "sellerName": "Toy Galaxy Store",
-      "sellerEmail": "support@toygalaxy.com"
-    },
-    "shipping": {
-      "deliveryTime": "3–6 days",
-      "shippingCharge": "Free"
-    },
-    "ratings": {
-      "averageRating": 4.6,
-      "totalReviews": 187
-    }
-  },
-  {
-    "id": 15,
-    "name": "Mega Kitchen Playset Deluxe",
-    "slug": "mega-kitchen-playset-deluxe",
+    "id": "toy008",
+    "name": "Kitchen Cooking Toy Set",
     "brand": "MiniChef",
-    "category": "Toys",
-    "subCategory": "Role Play",
-    "sku": "MC-KITCHEN-015",
-    "barcode": "8901234564015",
-    "modelNumber": "MKPD-015",
-    "createdAt": "2025-12-04T10:00:00Z",
-    "updatedAt": "2025-12-04T10:00:00Z",
-    "pricing": {
-      "price": 39.99,
-      "currency": "USD",
-      "discountPercentage": 10,
-      "discountedPrice": 35.99,
-      "taxIncluded": true,
-      "taxPercentage": 7.5,
-      "finalPrice": 38.69,
-      "mrp": 44.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 30,
-      "reservedQuantity": 2,
-      "warehouseLocation": "WH-A1-Row5",
-      "lowStockThreshold": 5,
-      "stockStatus": "Available",
-      "restockDate": "2026-02-01"
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/k8KHbNk/kitchen1.jpg",
-      "images": [
-        "https://i.ibb.co.com/k8KHbNk/kitchen1.jpg",
-        "https://i.ibb.co.com/MRvwKGz/kitchen2.jpg"
-      ],
-      "gallery": [
-        {
-          "url": "https://i.ibb.co.com/k8KHbNk/kitchen1.jpg",
-          "type": "image",
-          "alt": "Mega Kitchen Playset"
-        }
-      ]
-    },
-    "description": {
-      "short": "Interactive kitchen playset with lights and sounds.",
-      "long": "The Mega Kitchen Playset Deluxe offers realistic cooking, complete with stovetop sound effects, utensils, and toy food items, encouraging imaginative role play.",
-      "features": [
-        "Light & sound stove",
-        "28-piece kitchen kit",
-        "Non-toxic ABS material"
-      ]
-    },
-    "specifications": {
-      "color": "Pink & White",
-      "weight": "1.4 kg",
-      "dimensions": "45 x 30 x 20 cm",
-      "ageRecommendation": "3+ years",
-      "countryOfOrigin": "China",
-      "batteryRequired": true
-    },
-    "packageInfo": {
-      "packageWeight": "1.7 kg",
-      "packageDimensions": "48 x 32 x 22 cm",
-      "packageIncludes": [
-        "Kitchen Set",
-        "Utensils",
-        "Toy Food Items"
-      ]
-    },
-    "safetyInfo": {
-      "warnings": [
-        "Contains small parts"
-      ],
-      "certifications": [
-        "EN71",
-        "CE Certified"
-      ]
-    },
-    "sellerInfo": {
-      "sellerName": "KidsWorld Shop",
-      "sellerEmail": "sales@kidsworld.com"
-    },
-    "shipping": {
-      "deliveryTime": "4–7 days",
-      "shippingCharge": "Free"
-    },
-    "ratings": {
-      "averageRating": 4.7,
-      "totalReviews": 355
-    }
+    "category": "Pretend Play",
+    "subCategory": "Kitchen",
+    "price": 1100,
+    "discountPrice": 999,
+    "inStock": 20,
+    "description": "A fun kitchen set that includes pots, pans, utensils, and pretend food. Encourages imaginative cooking play.",
+    "features": ["15 pcs set", "Colorful"],
+    "materials": "Plastic",
+    "ageRange": "3-8 years",
+    "dimensions": "Varies",
+    "weight": "350g",
+    "image": "https://i.ibb.co.com/NgBmP17G/toy11.jpg",
+    "sellerId": "seller108",
+    "sellerName": "KidsShop BD",
+    "sellerLocation": "Dhaka",
+    "sellerRating": 4.6,
+    "averageRating": 4.5,
+    "totalReviews": 20,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": [],
+    "deliveryTime": "2-4 days",
+    "shippingCost": 50,
+    "soldCount": 150,
+    "tags": ["kitchen", "pretend-play"]
+  },
+
+  {
+    "id": "toy009",
+    "name": "Rubber Duck Bath Toy",
+    "brand": "BathFun",
+    "category": "Baby Toys",
+    "subCategory": "Bath Toys",
+    "price": 180,
+    "discountPrice": 150,
+    "inStock": 100,
+    "description": "A cute floating rubber duck that makes bath time more fun and engaging for babies.",
+    "features": ["Waterproof", "Soft"],
+    "materials": "Rubber",
+    "ageRange": "0-4 years",
+    "dimensions": "6cm",
+    "weight": "40g",
+    "image": "https://i.ibb.co.com/RGGGpZ9m/toy12.jpg",
+    "sellerId": "seller109",
+    "sellerName": "BabyShop",
+    "sellerLocation": "Dhaka",
+    "sellerRating": 4.4,
+    "averageRating": 4.3,
+    "totalReviews": 18,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": [],
+    "deliveryTime": "2-3 days",
+    "shippingCost": 20,
+    "soldCount": 300,
+    "tags": ["bath-toy", "cute"]
+  },
+
+  {
+    "id": "toy010",
+    "name": "Kids ABC Learning Board",
+    "brand": "EduBoard",
+    "category": "Educational",
+    "subCategory": "Learning Boards",
+    "price": 650,
+    "discountPrice": 580,
+    "inStock": 40,
+    "description": "This ABC learning board helps kids learn letters, words, and early language skills through interactive play.",
+    "features": ["Bright colors", "Sturdy"],
+    "materials": "Wood",
+    "ageRange": "3-6 years",
+    "dimensions": "25cm x 18cm",
+    "weight": "250g",
+    "image": "https://i.ibb.co.com/hFqwJ5n1/toy13.jpg",
+    "sellerId": "seller110",
+    "sellerName": "EduKids",
+    "sellerLocation": "Dhaka",
+    "sellerRating": 4.7,
+    "averageRating": 4.6,
+    "totalReviews": 10,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": [],
+    "deliveryTime": "2-4 days",
+    "shippingCost": 40,
+    "soldCount": 85,
+    "tags": ["learning", "abc"]
   },
   {
-    "id": 16,
-    "name": "Turbo Racers Combo Pack",
-    "slug": "turbo-racers-combo-pack",
-    "brand": "SpeedMaster",
-    "category": "Toys",
-    "subCategory": "Vehicles",
-    "sku": "SM-RACER-016",
-    "barcode": "8901234564016",
-    "modelNumber": "TRCP-016",
-    "createdAt": "2025-12-04T10:00:00Z",
-    "updatedAt": "2025-12-04T10:00:00Z",
-    "pricing": {
-      "price": 19.99,
-      "currency": "USD",
-      "discountPercentage": 15,
-      "discountedPrice": 16.99,
-      "taxIncluded": true,
-      "taxPercentage": 7.5,
-      "finalPrice": 18.26,
-      "mrp": 22.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 60,
-      "reservedQuantity": 4,
-      "warehouseLocation": "WH-C4-Row3",
-      "lowStockThreshold": 10,
-      "stockStatus": "Available",
-      "restockDate": "2026-01-25"
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/sH4xy3C/car1.jpg",
-      "images": [
-        "https://i.ibb.co.com/sH4xy3C/car1.jpg",
-        "https://i.ibb.co.com/JKDTpPg/car2.jpg"
-      ],
-      "gallery": [
-        {
-          "url": "https://i.ibb.co.com/sH4xy3C/car1.jpg",
-          "type": "image",
-          "alt": "Turbo Racing Cars"
-        }
-      ]
-    },
-    "description": {
-      "short": "Pack of 4 high-speed pullback cars.",
-      "long": "The Turbo Racers Combo Pack includes four die-cast pullback racing cars designed with premium wheels and aerodynamic bodies for maximum speed and durability.",
-      "features": [
-        "Die-cast metal",
-        "Pullback mechanism",
-        "4-car set"
-      ]
-    },
-    "specifications": {
-      "color": "Multi-color",
-      "weight": "0.45 kg",
-      "dimensions": "Car length 9 cm each",
-      "ageRecommendation": "4+ years",
-      "countryOfOrigin": "China",
-      "batteryRequired": false
-    },
-    "packageInfo": {
-      "packageWeight": "0.6 kg",
-      "packageDimensions": "25 x 12 x 6 cm",
-      "packageIncludes": [
-        "4 Pullback Cars"
-      ]
-    },
-    "safetyInfo": {
-      "warnings": [
-        "Not suitable for children under 3"
-      ],
-      "certifications": [
-        "CE Certified"
-      ]
-    },
-    "sellerInfo": {
-      "sellerName": "SpeedZone Toys",
-      "sellerEmail": "info@speedzone.com"
-    },
-    "shipping": {
-      "deliveryTime": "3–5 days",
-      "shippingCharge": "Free"
-    },
-    "ratings": {
-      "averageRating": 4.4,
-      "totalReviews": 210
-    }
+    "id": "toy011",
+    "name": "Stacking Rings Toy",
+    "brand": "BabyFun",
+    "category": "Baby Toys",
+    "subCategory": "Stacking Toys",
+    "price": 400,
+    "discountPrice": 350,
+    "inStock": 70,
+    "description": "A colorful stacking rings toy that helps develop hand-eye coordination and early motor skills. Made with safe, non-toxic plastic and smooth edges for baby’s safety.",
+    "features": ["Stackable rings", "Bright colors"],
+    "materials": "Plastic",
+    "ageRange": "0-3 years",
+    "dimensions": "Varies",
+    "weight": "120g",
+    "image": "https://i.ibb.co.com/dsgCBWM7/toy14.jpg",
+    "sellerId": "seller111",
+    "sellerName": "BabyJoy BD",
+    "sellerLocation": "Khulna",
+    "sellerRating": 4.5,
+    "averageRating": 4.4,
+    "totalReviews": 7,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": [],
+    "deliveryTime": "3-5 days",
+    "shippingCost": 25,
+    "soldCount": 55,
+    "tags": ["baby", "motor-skill"]
   },
   {
-    "id": 17,
-    "name": "Creative Art Box Premium",
-    "slug": "creative-art-box-premium",
-    "brand": "ColorNest",
-    "category": "Toys",
-    "subCategory": "Arts & Crafts",
-    "sku": "CN-ARTBOX-017",
-    "barcode": "8901234564017",
-    "modelNumber": "CABP-017",
-    "createdAt": "2025-12-04T10:00:00Z",
-    "updatedAt": "2025-12-04T10:00:00Z",
-    "pricing": {
-      "price": 24.99,
-      "currency": "USD",
-      "discountPercentage": 20,
-      "discountedPrice": 19.99,
-      "taxIncluded": true,
-      "taxPercentage": 7.5,
-      "finalPrice": 21.49,
-      "mrp": 29.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 27,
-      "reservedQuantity": 1,
-      "warehouseLocation": "WH-D2-Row9",
-      "lowStockThreshold": 5,
-      "stockStatus": "Available",
-      "restockDate": "2026-02-20"
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/0YpRZBC/art1.jpg",
-      "images": [
-        "https://i.ibb.co.com/0YpRZBC/art1.jpg",
-        "https://i.ibb.co.com/vDP2x4H/art2.jpg"
-      ],
-      "gallery": [
-        {
-          "url": "https://i.ibb.co.com/0YpRZBC/art1.jpg",
-          "type": "image",
-          "alt": "Creative Art Kit"
-        }
-      ]
-    },
-    "description": {
-      "short": "150-piece premium art kit for kids.",
-      "long": "The Creative Art Box Premium includes crayons, markers, sketch pencils, watercolors, and all essential tools for young artists to explore creativity.",
-      "features": [
-        "150 art tools",
-        "Hard plastic carry case",
-        "Non-toxic color materials"
-      ]
-    },
-    "specifications": {
-      "color": "Multi-color",
-      "weight": "0.9 kg",
-      "dimensions": "32 x 25 x 8 cm",
-      "ageRecommendation": "5+ years",
-      "countryOfOrigin": "China",
-      "batteryRequired": false
-    },
-    "packageInfo": {
-      "packageWeight": "1.1 kg",
-      "packageDimensions": "34 x 26 x 9 cm",
-      "packageIncludes": [
-        "Full art kit",
-        "Case"
-      ]
-    },
-    "safetyInfo": {
-      "warnings": [
-        "Use under adult supervision"
-      ],
-      "certifications": [
-        "EN71",
-        "CE Certified"
-      ]
-    },
-    "sellerInfo": {
-      "sellerName": "ArtHouse Store",
-      "sellerEmail": "hello@arthouse.com"
-    },
-    "shipping": {
-      "deliveryTime": "4–6 days",
-      "shippingCharge": "Free"
-    },
-    "ratings": {
-      "averageRating": 4.8,
-      "totalReviews": 412
-    }
+    "id": "toy012",
+    "name": "Mini Dinosaur Figure Set",
+    "brand": "DinoPlay",
+    "category": "Action Figures",
+    "subCategory": "Dinosaurs",
+    "price": 700,
+    "discountPrice": 650,
+    "inStock": 40,
+    "description": "A fun dinosaur figure set for imaginative prehistoric play. Each figure is detailed, durable, and perfect for storytelling and creativity.",
+    "features": ["Detailed design", "Durable plastic"],
+    "materials": "Plastic",
+    "ageRange": "4-8 years",
+    "dimensions": "Varies",
+    "weight": "200g",
+    "image": "https://i.ibb.co.com/LDbs28Bh/toy15.jpg",
+    "sellerId": "seller112",
+    "sellerName": "ToyWorld BD",
+    "sellerLocation": "Rajshahi",
+    "sellerRating": 4.6,
+    "averageRating": 4.3,
+    "totalReviews": 9,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": [],
+    "deliveryTime": "2-4 days",
+    "shippingCost": 45,
+    "soldCount": 65,
+    "tags": ["action-figure", "dinosaur"]
   },
   {
-    "id": 18,
-    "name": "Soft Plush Panda XL",
-    "slug": "soft-plush-panda-xl",
-    "brand": "CuddleSoft",
-    "category": "Toys",
-    "subCategory": "Plush Toys",
-    "sku": "CS-PANDA-018",
-    "barcode": "8901234564018",
-    "modelNumber": "SPXL-018",
-    "createdAt": "2025-12-04T10:00:00Z",
-    "updatedAt": "2025-12-04T10:00:00Z",
-    "pricing": {
-      "price": 34.99,
-      "currency": "USD",
-      "discountPercentage": 15,
-      "discountedPrice": 29.74,
-      "taxIncluded": true,
-      "taxPercentage": 7.5,
-      "finalPrice": 31.97,
-      "mrp": 39.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 50,
-      "reservedQuantity": 6,
-      "warehouseLocation": "WH-E1-Row2",
-      "lowStockThreshold": 10,
-      "stockStatus": "Available",
-      "restockDate": "2026-01-18"
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/wR9nXwB/panda1.jpg",
-      "images": [
-        "https://i.ibb.co.com/wR9nXwB/panda1.jpg",
-        "https://i.ibb.co.com/7p2jK5n/panda2.jpg"
-      ],
-      "gallery": [
-        {
-          "url": "https://i.ibb.co.com/wR9nXwB/panda1.jpg",
-          "type": "image",
-          "alt": "Soft Plush Panda XL"
-        }
-      ]
-    },
-    "description": {
-      "short": "Extra-soft jumbo panda plush toy.",
-      "long": "Soft Plush Panda XL is made with premium cotton fiber filling and velvety soft surface fabric, making it perfect for hugging, gifting, and décor.",
-      "features": [
-        "Hypoallergenic fiber",
-        "Premium stitching",
-        "60 cm plush size"
-      ]
-    },
-    "specifications": {
-      "color": "Black & White",
-      "weight": "0.75 kg",
-      "dimensions": "60 cm height",
-      "ageRecommendation": "1+ years",
-      "countryOfOrigin": "China",
-      "batteryRequired": false
-    },
-    "packageInfo": {
-      "packageWeight": "0.95 kg",
-      "packageDimensions": "40 x 28 x 25 cm",
-      "packageIncludes": [
-        "1 Plush Panda"
-      ]
-    },
-    "safetyInfo": {
-      "warnings": [
-        "Keep away from fire"
-      ],
-      "certifications": [
-        "EN71",
-        "CE Certified"
-      ]
-    },
-    "sellerInfo": {
-      "sellerName": "SoftToys Hub",
-      "sellerEmail": "support@softtoys.com"
-    },
-    "shipping": {
-      "deliveryTime": "2–5 days",
-      "shippingCharge": "Free"
-    },
-    "ratings": {
-      "averageRating": 4.9,
-      "totalReviews": 520
-    }
+    "id": "toy013",
+    "name": "Coloring Activity Book & Crayons",
+    "brand": "ArtKids",
+    "category": "Educational",
+    "subCategory": "Art & Craft",
+    "price": 300,
+    "discountPrice": 260,
+    "inStock": 100,
+    "description": "An activity kit with coloring book and crayons to encourage creativity and color recognition in kids. Great for quiet playtime and early art skills.",
+    "features": ["24-page book", "12 crayons included"],
+    "materials": "Paper & wax crayons",
+    "ageRange": "3-7 years",
+    "dimensions": "A4 size",
+    "weight": "150g",
+    "image": "https://i.ibb.co.com/7NY3Cbtb/toy16.jpg",
+    "sellerId": "seller113",
+    "sellerName": "CreativeKids BD",
+    "sellerLocation": "Dhaka",
+    "sellerRating": 4.8,
+    "averageRating": 4.7,
+    "totalReviews": 30,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": [],
+    "deliveryTime": "2-3 days",
+    "shippingCost": 20,
+    "soldCount": 180,
+    "tags": ["art", "creative"]
   },
   {
-    "id": 19,
-    "name": "STEM Robotics Explorer Kit",
-    "slug": "stem-robotics-explorer-kit",
-    "brand": "TechBuilder",
-    "category": "Toys",
-    "subCategory": "STEM Kits",
-    "sku": "TB-ROBOT-019",
-    "barcode": "8901234564019",
-    "modelNumber": "SREK-019",
-    "createdAt": "2025-12-04T10:00:00Z",
-    "updatedAt": "2025-12-04T10:00:00Z",
-    "pricing": {
-      "price": 79.99,
-      "currency": "USD",
-      "discountPercentage": 14,
-      "discountedPrice": 68.79,
-      "taxIncluded": true,
-      "taxPercentage": 7.5,
-      "finalPrice": 73.95,
-      "mrp": 89.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 18,
-      "reservedQuantity": 2,
-      "warehouseLocation": "WH-F3-Row6",
-      "lowStockThreshold": 5,
-      "stockStatus": "Available",
-      "restockDate": "2026-03-01"
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/FzYBXwM/robot1.jpg",
-      "images": [
-        "https://i.ibb.co.com/FzYBXwM/robot1.jpg",
-        "https://i.ibb.co.com/rtnwZYK/robot2.jpg"
-      ],
-      "gallery": [
-        {
-          "url": "https://i.ibb.co.com/FzYBXwM/robot1.jpg",
-          "type": "image",
-          "alt": "STEM Robotics Kit"
-        }
-      ]
-    },
-    "description": {
-      "short": "Beginner-friendly robotics kit with coding support.",
-      "long": "STEM Robotics Explorer Kit introduces kids to sensors, motors, and programming through easy block-based coding and multiple buildable robot models.",
-      "features": [
-        "112 components",
-        "Rechargeable battery",
-        "Ultrasonic sensor"
-      ]
-    },
-    "specifications": {
-      "color": "Blue & White",
-      "weight": "1.0 kg",
-      "dimensions": "34 x 26 x 9 cm",
-      "ageRecommendation": "8+ years",
-      "countryOfOrigin": "China",
-      "batteryRequired": true
-    },
-    "packageInfo": {
-      "packageWeight": "1.3 kg",
-      "packageDimensions": "36 x 28 x 9 cm",
-      "packageIncludes": [
-        "Full Robotics Kit",
-        "Manual",
-        "Charger"
-      ]
-    },
-    "safetyInfo": {
-      "warnings": [
-        "Adult supervision recommended"
-      ],
-      "certifications": [
-        "CE",
-        "FCC",
-        "EN71"
-      ]
-    },
-    "sellerInfo": {
-      "sellerName": "STEM World",
-      "sellerEmail": "info@stemworld.com"
-    },
-    "shipping": {
-      "deliveryTime": "4–7 days",
-      "shippingCharge": "Free"
-    },
-    "ratings": {
-      "averageRating": 4.6,
-      "totalReviews": 185
-    }
+    "id": "toy014",
+    "name": "Wooden Train Set",
+    "brand": "TrackMaster",
+    "category": "Vehicles",
+    "subCategory": "Train Sets",
+    "price": 1250,
+    "discountPrice": 1100,
+    "inStock": 15,
+    "description": "A classic wooden train set for hours of imaginative play. Durable wooden tracks and train pieces make it perfect for group play and creativity.",
+    "features": ["Wooden tracks", "Multiple train pieces"],
+    "materials": "Wood",
+    "ageRange": "3-8 years",
+    "dimensions": "Varies",
+    "weight": "500g",
+    "image": "https://i.ibb.co.com/NgxGnWqq/toy17.jpg",
+    "sellerId": "seller114",
+    "sellerName": "WoodToys BD",
+    "sellerLocation": "Chittagong",
+    "sellerRating": 4.7,
+    "averageRating": 4.5,
+    "totalReviews": 12,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": ["CE"],
+    "deliveryTime": "3-5 days",
+    "shippingCost": 60,
+    "soldCount": 45,
+    "tags": ["wooden", "classic"]
   },
   {
-    "id": 20,
-    "name": "Wooden Puzzle Brain Box",
-    "slug": "wooden-puzzle-brain-box",
-    "brand": "BrainCraft",
-    "category": "Toys",
-    "subCategory": "Puzzles",
-    "sku": "BC-PUZZLE-020",
-    "barcode": "8901234564020",
-    "modelNumber": "WPBB-020",
-    "createdAt": "2025-12-04T10:00:00Z",
-    "updatedAt": "2025-12-04T10:00:00Z",
-    "pricing": {
-      "price": 14.99,
-      "currency": "USD",
-      "discountPercentage": 18,
-      "discountedPrice": 12.29,
-      "taxIncluded": true,
-      "taxPercentage": 7.5,
-      "finalPrice": 13.21,
-      "mrp": 17.99
-    },
-    "inventory": {
-      "inStock": true,
-      "availableQuantity": 65,
-      "reservedQuantity": 5,
-      "warehouseLocation": "WH-G1-Row2",
-      "lowStockThreshold": 12,
-      "stockStatus": "Available",
-      "restockDate": "2026-01-12"
-    },
-    "media": {
-      "thumbnail": "https://i.ibb.co.com/QN8mFcJ/puzzle1.jpg",
-      "images": [
-        "https://i.ibb.co.com/QN8mFcJ/puzzle1.jpg",
-        "https://i.ibb.co.com/89XMvkp/puzzle2.jpg"
-      ],
-      "gallery": [
-        {
-          "url": "https://i.ibb.co.com/QN8mFcJ/puzzle1.jpg",
-          "type": "image",
-          "alt": "Wooden Puzzle Brain Box"
-        }
-      ]
-    },
-    "description": {
-      "short": "Set of 6 wooden puzzles for early learning.",
-      "long": "The Wooden Puzzle Brain Box includes 6 premium wooden puzzles with smooth edges and durable prints, supporting hand–eye coordination and problem-solving skills.",
-      "features": [
-        "Eco-friendly wood",
-        "Bright prints",
-        "Smooth rounded edges"
-      ]
-    },
-    "specifications": {
-      "color": "Natural Wood",
-      "weight": "0.72 kg",
-      "dimensions": "Puzzle size 12 x 12 cm",
-      "ageRecommendation": "3+ years",
-      "countryOfOrigin": "India",
-      "batteryRequired": false
-    },
-    "packageInfo": {
-      "packageWeight": "0.9 kg",
-      "packageDimensions": "28 x 22 x 6 cm",
-      "packageIncludes": [
-        "6 Wooden Puzzles"
-      ]
-    },
-    "safetyInfo": {
-      "warnings": [
-        "Avoid water exposure"
-      ],
-      "certifications": [
-        "EN71",
-        "CE"
-      ]
-    },
-    "sellerInfo": {
-      "sellerName": "CraftyKids Store",
-      "sellerEmail": "contact@craftykids.com"
-    },
-    "shipping": {
-      "deliveryTime": "3–5 days",
-      "shippingCharge": "Free"
-    },
-    "ratings": {
-      "averageRating": 4.5,
-      "totalReviews": 270
-    }
+    "id": "toy015",
+    "name": "Soft Plush Elephant",
+    "brand": "CuddleTime",
+    "category": "Soft Toys",
+    "subCategory": "Plush",
+    "price": 520,
+    "discountPrice": 480,
+    "inStock": 90,
+    "description": "A soft, cuddly plush elephant that kids will love to hug. Safe for babies and toddlers, and ideal as a comforting companion for sleep or playtime.",
+    "features": ["Hypoallergenic", "Machine washable"],
+    "materials": "Fabric",
+    "ageRange": "0-5 years",
+    "dimensions": "20cm height",
+    "weight": "180g",
+    "image": "https://i.ibb.co.com/Kjdb1nxb/toy18.jpg",
+    "sellerId": "seller115",
+    "sellerName": "CuteToys BD",
+    "sellerLocation": "Sylhet",
+    "sellerRating": 4.9,
+    "averageRating": 4.8,
+    "totalReviews": 22,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": [],
+    "deliveryTime": "2-3 days",
+    "shippingCost": 30,
+    "soldCount": 160,
+    "tags": ["plush", "cute"]
+  },
+  {
+    "id": "toy016",
+    "name": "Magnetic Drawing Board",
+    "brand": "DrawBoard",
+    "category": "Educational",
+    "subCategory": "Drawing Toys",
+    "price": 780,
+    "discountPrice": 720,
+    "inStock": 35,
+    "description": "A magnetic drawing board that allows kids to draw, erase, and draw again — perfect for creativity, writing practice, and endless fun without mess.",
+    "features": ["Reusable board", "Easy erase"],
+    "materials": "Plastic + magnetic stylus",
+    "ageRange": "3-8 years",
+    "dimensions": "25cm x 20cm",
+    "weight": "300g",
+    "image": "https://i.ibb.co.com/Ng5N5xBN/toy19.jpg",
+    "sellerId": "seller116",
+    "sellerName": "EduPlay BD",
+    "sellerLocation": "Dhaka",
+    "sellerRating": 4.6,
+    "averageRating": 4.4,
+    "totalReviews": 11,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": [],
+    "deliveryTime": "2-4 days",
+    "shippingCost": 45,
+    "soldCount": 90,
+    "tags": ["drawing", "creative"]
+  },
+  {
+    "id": "toy017",
+    "name": "Stackable Building Blocks Set (50 pcs)",
+    "brand": "BuildMaster",
+    "category": "Educational",
+    "subCategory": "Blocks",
+    "price": 1400,
+    "discountPrice": 1250,
+    "inStock": 20,
+    "description": "A full set of 50 colorful building blocks that let children build towers, houses, or anything their imagination can think of — boosting creativity, spatial thinking, and teamwork if played with friends or siblings.",
+    "features": ["50 pcs", "Bright, assorted colors"],
+    "materials": "Plastic",
+    "ageRange": "3-8 years",
+    "dimensions": "Varies",
+    "weight": "800g",
+    "image": "https://i.ibb.co.com/rR0SVPh2/toy20.jpg",
+    "sellerId": "seller117",
+    "sellerName": "ToyCity BD",
+    "sellerLocation": "Rajshahi",
+    "sellerRating": 4.5,
+    "averageRating": 4.2,
+    "totalReviews": 5,
+    "reviews": [],
+    "safetyWarnings": ["Keep away from children under 3 years"],
+    "certifications": [],
+    "deliveryTime": "3-5 days",
+    "shippingCost": 70,
+    "soldCount": 30,
+    "tags": ["blocks", "creative"]
+  },
+  {
+    "id": "toy018",
+    "name": "Wooden Shape Puzzle Board",
+    "brand": "SmartKids",
+    "category": "Educational",
+    "subCategory": "Puzzle",
+    "price": 540,
+    "discountPrice": 500,
+    "inStock": 40,
+    "description": "A wooden puzzle board with different shapes to help kids learn shape recognition, problem solving, and hand-eye coordination. Durable and safe material makes it a great toy for early learning.",
+    "features": ["Wooden material", "Safe finish"],
+    "materials": "Wood",
+    "ageRange": "2-5 years",
+    "dimensions": "20cm x 20cm",
+    "weight": "220g",
+    "image": "https://i.ibb.co.com/7JfjgPRT/toy21.jpg",
+    "sellerId": "seller118",
+    "sellerName": "EduWood BD",
+    "sellerLocation": "Dhaka",
+    "sellerRating": 4.6,
+    "averageRating": 4.4,
+    "totalReviews": 9,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": ["CE"],
+    "deliveryTime": "2-3 days",
+    "shippingCost": 40,
+    "soldCount": 50,
+    "tags": ["wooden", "puzzle"]
+  },
+  {
+    "id": "toy019",
+    "name": "Fire Truck Push Toy",
+    "brand": "RescueToys",
+    "category": "Vehicles",
+    "subCategory": "Push Toys",
+    "price": 980,
+    "discountPrice": 880,
+    "inStock": 30,
+    "description": "A push-along fire truck toy to encourage active play and movement. Perfect for toddlers learning to walk and run, while having fun with rescue-themed play.",
+    "features": ["Push along wheels", "Bright design"],
+    "materials": "Plastic",
+    "ageRange": "1-4 years",
+    "dimensions": "15cm length",
+    "weight": "250g",
+    "image": "https://i.ibb.co.com/4ZqDqptH/toy22.jpg",
+    "sellerId": "seller119",
+    "sellerName": "ActiveToys BD",
+    "sellerLocation": "Khulna",
+    "sellerRating": 4.5,
+    "averageRating": 4.3,
+    "totalReviews": 6,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": [],
+    "deliveryTime": "3-5 days",
+    "shippingCost": 50,
+    "soldCount": 45,
+    "tags": ["vehicle", "toddler"]
+  },
+  {
+    "id": "toy020",
+    "name": "Eco-Friendly Wooden Stack Tower",
+    "brand": "GreenToys",
+    "category": "Educational",
+    "subCategory": "Stacking Toys",
+    "price": 880,
+    "discountPrice": 800,
+    "inStock": 25,
+    "description": "An eco-friendly wooden stack tower that’s painted with non-toxic colors and designed for safe, sustainable play. Helps little ones develop balance, coordination, and creative stack building skills.",
+    "features": ["Eco-friendly paint", "Sturdy wood"],
+    "materials": "Wood",
+    "ageRange": "1-5 years",
+    "dimensions": "Varies",
+    "weight": "300g",
+    "image": "https://i.ibb.co.com/3YMG1vs4/toy24.jpg",
+    "sellerId": "seller120",
+    "sellerName": "GreenToy BD",
+    "sellerLocation": "Rajshahi",
+    "sellerRating": 4.7,
+    "averageRating": 4.6,
+    "totalReviews": 13,
+    "reviews": [],
+    "safetyWarnings": [],
+    "certifications": ["CE"],
+    "deliveryTime": "2-4 days",
+    "shippingCost": 45,
+    "soldCount": 40,
+    "tags": ["eco-friendly", "wooden"]
   }
 ]

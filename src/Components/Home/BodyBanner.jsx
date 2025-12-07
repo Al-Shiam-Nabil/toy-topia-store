@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const BodyBanner = () => {
     return (
@@ -16,7 +17,7 @@ const BodyBanner = () => {
       <p className="mb-5">
         A wide collection of playful, safe, and exciting toys designed to spark creativity and imagination. From learning toys to adventure sets, we bring joy to every child’s world.
       </p>
-      <button className="btn btn-primary">Get Started</button>
+      <Link to="/all-toys" className="btn btn-primary rounded-full shadow-none">Get Started</Link>
     </div>
   </div>
 </div>

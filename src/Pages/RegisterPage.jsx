@@ -153,7 +153,7 @@ const RegisterPage = () => {
                 </div>
                 {error && <p className="text-sm text-red-500">{error}</p>}
 
-                <button className="btn btn-secondary  text-base mt-4">
+                <button className="btn btn-primary shadow-none rounded-3xl  text-base mt-5">
                   Register
                 </button>
               </fieldset>
@@ -164,7 +164,7 @@ const RegisterPage = () => {
             {/* Google */}
             <button
               onClick={handleGoogleLogin}
-              className="btn bg-white text-black border-[#e5e5e5]"
+              className="btn bg-white rounded-3xl hover:bg-gray-100 text-black border-[#e5e5e5]"
             >
               <svg
                 aria-label="Google logo"
