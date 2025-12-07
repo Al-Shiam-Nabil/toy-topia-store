@@ -19,6 +19,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const HomePage = () => {
   const { data, loading } = useLoadData();
+  
 
   const location = useLocation();
 

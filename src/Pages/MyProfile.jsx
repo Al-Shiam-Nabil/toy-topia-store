@@ -16,14 +16,23 @@ const MyProfile = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [location.pathname]);
 
+   
+
   const handleUpdateProfile = (e) => {
     e.preventDefault();
     const name = e.target.name.value.trim().toUpperCase();
     const photo = e.target.photo.value.trim();
+
+  
+
+
     if (!name && !photo) {
       toast.error("Please fill atleast one input.");
       return;
     }
+
+
+ 
 
     let myName = "";
     let myPhoto = "";
@@ -53,9 +62,7 @@ const MyProfile = () => {
       });
   };
 
-  if(loading){
-    return <LoadingComponent></LoadingComponent>
-  }
+  
 
   return (
     <>

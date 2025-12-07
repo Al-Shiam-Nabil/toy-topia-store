@@ -14,6 +14,7 @@ const useLoadData = () => {
       .then((res) => {
         setData(res.data);
         setBackupData(res.data)
+        
       })
       .catch((error) => {
         setError(error.code);
